@@ -1,0 +1,187 @@
+Table food {
+  _id integer [primary key] 
+  nameEn varchar 
+  nameEs varchar 
+  kcal_100g decimal 
+  water_g decimal 
+  zn_mg decimal 
+  ca_mg decimal 
+  carboydrates decimal
+  fats decimal
+  protein decimal
+  foodEx2CODE varchar 
+  región varchar 
+  type integer 
+  group integer 
+  subgroup integer
+}
+
+Table food_groups {
+  _id integer [primary key]
+  nameEn varchar
+  nameEs varchar
+  items string
+}
+
+Table restrictions {
+  _id integer [primary key]
+  nameEn varchar
+  nameEs varchar
+  items_avoid string
+  items_reduce string
+  groups_avoid string
+  groups_reduce string
+  
+  type integer
+}
+
+Table utils_cons {
+  _id integer [primary key]
+  nameEn varchar
+  nameEs varchar
+  type integer
+}
+
+Table users {
+  _id integer [primary key]
+  mail text
+  acceptData boolean
+  role integer
+  link text
+  city text
+  country text
+  fullName text
+  language text
+   id_avoid string
+  id_reduce string
+  items_avoid string
+  items_reduce string
+  restrictions string
+  groups_avoid string
+  groups_reduce string
+  
+  username text
+}
+
+Table groups {
+  _id integer [primary key]
+  name text
+  description text
+  users map
+}
+
+Table group_members {
+  _id integer [primary key]
+  group_id integer
+  username text
+  admin boolean
+  approved boolean
+}
+
+Table recipes {
+  
+  titleEn text
+  titleOr text
+  creationUser text
+  description text
+  id_cons string
+  id_ingredients string
+  _id integer [primary key]
+  link text
+  origin text
+  people integer
+  tools text
+  type text
+  type_day text
+  carboydrates decimal
+  fats decimal
+  protein decimal
+}
+
+Table recipe_items {
+  _id integer [primary key]
+  id_recipe integer
+  item text
+  item_id integer
+  alternatives_id string
+  amount integer
+  unit text
+  id_reference_recipe integer
+  comments text
+}
+
+Table recipe_steps {
+  _id integer [primary key]
+  id_recipe integer
+  action text
+  ingredient text
+  amount text
+  unit_ingredient text
+  time integer
+  unit_time text
+  tool text
+  comments text
+}
+
+Table user_list {
+  _id integer [primary key]
+  food_id integer
+  haveIt boolean
+  item_name text
+  unit_g decimal
+  unit_ml decimal
+  units decimal
+  username text
+}
+
+Table tasks {
+  _id integer [primary key]
+  completed boolean
+  completedDate text
+  description text
+  link text
+  name text
+  points decimal
+  priority integer
+  username text
+}
+
+Table recipes_comments {
+  _id integer [primary key]
+  comment text
+  username text
+  date text
+  language text
+  rating integer
+  title text
+  id_recipe integer
+}
+
+Ref: food_groups.items > food._id
+Ref: restrictions.items_avoid > food._id
+Ref: restrictions.items_reduce > food._id
+Ref: restrictions.groups_avoid > food_groups._id
+Ref: restrictions.groups_reduce > food_groups._id
+Ref: users.items_avoid > food._id
+Ref: users.items_reduce > food._id
+Ref: users.groups_avoid > food_groups._id
+Ref: users.groups_reduce > food_groups._id
+Ref: users.restrictions > restrictions._id
+Ref: users.id_avoid > food._id
+Ref: users.id_reduce > food._id
+Ref: group_members.group_id > groups._id
+Ref: group_members.username > users.username
+Ref: recipes.id_cons > utils_cons._id
+Ref: recipes.id_ingredients > food._id
+Ref: recipes.creationUser > users.username
+Ref: recipe_items.id_recipe > recipes._id
+Ref: recipe_items.item_id > food._id
+Ref: recipe_items.id_reference_recipe > recipes._id
+Ref: recipe_steps.id_recipe > recipes._id
+Ref: user_list.food_id > food._id
+Ref: user_list.username > users.username
+Ref: tasks.username > users.username
+Ref: recipes_comments.id_recipe > recipes._id
+Ref: recipes_comments.username > users.username
+
+

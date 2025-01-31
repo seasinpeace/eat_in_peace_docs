@@ -1,0 +1,3470 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0425.1340                               -->
+<workbook original-version='18.1' source-build='2024.1.2 (20241.24.0425.1340)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Hoja2 (BBDD Tableau adiciona)' inline='true' name='federated.0myvqlr0lvpskm1324tu21h6p927' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='BBDD Tableau adiciona' name='excel-direct.0lyoiqt0ttwxze1fgsaed1r1mh9m'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/rebep/OneDrive/Desktop/TFM/Anexos/Documentos/BBDD Tableau adiciona.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0lyoiqt0ttwxze1fgsaed1r1mh9m' name='Hoja2' table='[Hoja2$]' type='table'>
+          <columns gridOrigin='A1:H117:no:A1:H117:0' header='yes' outcome='2'>
+            <column datatype='string' name='Timestamp' ordinal='0' />
+            <column datatype='string' name='mail or username' ordinal='1' />
+            <column datatype='string' name='Restrictions' ordinal='2' />
+            <column datatype='string' name='Columna1' ordinal='3' />
+            <column datatype='string' name='Columna2' ordinal='4' />
+            <column datatype='string' name='Columna3' ordinal='5' />
+            <column datatype='string' name='Columna4' ordinal='6' />
+            <column datatype='string' name='Columna11' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0lyoiqt0ttwxze1fgsaed1r1mh9m' name='Hoja2' table='[Hoja2$]' type='table'>
+          <columns gridOrigin='A1:H117:no:A1:H117:0' header='yes' outcome='2'>
+            <column datatype='string' name='Timestamp' ordinal='0' />
+            <column datatype='string' name='mail or username' ordinal='1' />
+            <column datatype='string' name='Restrictions' ordinal='2' />
+            <column datatype='string' name='Columna1' ordinal='3' />
+            <column datatype='string' name='Columna2' ordinal='4' />
+            <column datatype='string' name='Columna3' ordinal='5' />
+            <column datatype='string' name='Columna4' ordinal='6' />
+            <column datatype='string' name='Columna11' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Hoja2]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:H117:no:A1:H117:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Timestamp</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Timestamp]</local-name>
+            <parent-name>[Hoja2]</parent-name>
+            <remote-alias>Timestamp</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja2_0A69F34062654FECAEA8E90140EC86B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mail or username</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[mail or username]</local-name>
+            <parent-name>[Hoja2]</parent-name>
+            <remote-alias>mail or username</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja2_0A69F34062654FECAEA8E90140EC86B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Restrictions</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Restrictions]</local-name>
+            <parent-name>[Hoja2]</parent-name>
+            <remote-alias>Restrictions</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja2_0A69F34062654FECAEA8E90140EC86B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Columna1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Columna1]</local-name>
+            <parent-name>[Hoja2]</parent-name>
+            <remote-alias>Columna1</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja2_0A69F34062654FECAEA8E90140EC86B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Columna2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Columna2]</local-name>
+            <parent-name>[Hoja2]</parent-name>
+            <remote-alias>Columna2</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja2_0A69F34062654FECAEA8E90140EC86B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Columna3</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Columna3]</local-name>
+            <parent-name>[Hoja2]</parent-name>
+            <remote-alias>Columna3</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja2_0A69F34062654FECAEA8E90140EC86B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Columna4</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Columna4]</local-name>
+            <parent-name>[Hoja2]</parent-name>
+            <remote-alias>Columna4</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja2_0A69F34062654FECAEA8E90140EC86B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Columna11</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Columna11]</local-name>
+            <parent-name>[Hoja2]</parent-name>
+            <remote-alias>Columna11</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja2_0A69F34062654FECAEA8E90140EC86B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Hoja2' datatype='table' name='[__tableau_internal_object_id__].[Hoja2_0A69F34062654FECAEA8E90140EC86B2]' role='measure' type='quantitative' />
+      <column caption='Mail Or Username' datatype='string' name='[mail or username]' role='dimension' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;España&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Hoja2' id='Hoja2_0A69F34062654FECAEA8E90140EC86B2'>
+            <properties context=''>
+              <relation connection='excel-direct.0lyoiqt0ttwxze1fgsaed1r1mh9m' name='Hoja2' table='[Hoja2$]' type='table'>
+                <columns gridOrigin='A1:H117:no:A1:H117:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Timestamp' ordinal='0' />
+                  <column datatype='string' name='mail or username' ordinal='1' />
+                  <column datatype='string' name='Restrictions' ordinal='2' />
+                  <column datatype='string' name='Columna1' ordinal='3' />
+                  <column datatype='string' name='Columna2' ordinal='4' />
+                  <column datatype='string' name='Columna3' ordinal='5' />
+                  <column datatype='string' name='Columna4' ordinal='6' />
+                  <column datatype='string' name='Columna11' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Sheet1 (Base de datos Tableau)' inline='true' name='federated.1rrq9vn0w56iti17620ee0uh52zy' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='BBDD Tableau' name='excel-direct.0veb3nk044h4d21bo44yc1von5ai'>
+            <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='C:/Users/rebep/OneDrive/Desktop/TFM/Anexos/Documentos/BBDD Tableau.xlsx' interpretationMode='1' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0veb3nk044h4d21bo44yc1von5ai' name='Hoja1' table='[Hoja1$]' type='table'>
+          <columns gridOrigin='A1:AP88:no:A1:AP88:1' header='yes' lost='0' outcome='1' processed='2249'>
+            <column datatype='datetime' name='Timestamp' ordinal='0' />
+            <column datatype='string' name='mail or username' ordinal='1' />
+            <column datatype='string' name='First time answering?' ordinal='2' />
+            <column datatype='string' name='Full Name' ordinal='3' />
+            <column datatype='integer' name='Age' ordinal='4' />
+            <column datatype='string' name='Genre' ordinal='5' />
+            <column datatype='string' name='Device' ordinal='6' />
+            <column datatype='string' name='Discover EIP' ordinal='7' />
+            <column datatype='string' name='Restrictions' ordinal='8' />
+            <column datatype='integer' name='Alternatives' ordinal='9' />
+            <column datatype='integer' name='New' ordinal='10' />
+            <column datatype='integer' name='Plans' ordinal='11' />
+            <column datatype='integer' name='Knowledge' ordinal='12' />
+            <column datatype='integer' name='Groups' ordinal='13' />
+            <column datatype='integer' name='Health' ordinal='14' />
+            <column datatype='integer' name='Storage' ordinal='15' />
+            <column datatype='integer' name='Easy' ordinal='16' />
+            <column datatype='integer' name='Others' ordinal='17' />
+            <column datatype='string' name='Other EIP uses' ordinal='18' />
+            <column datatype='integer' name='Difficulty finding recipes' ordinal='19' />
+            <column datatype='integer' name='Difficult find alternatives' ordinal='20' />
+            <column datatype='integer' name='Difficult find best recipes' ordinal='21' />
+            <column datatype='integer' name='Difficult find restaurants' ordinal='22' />
+            <column datatype='integer' name='Interest in improving diet' ordinal='23' />
+            <column datatype='integer' name='Difficult to live with restrictions' ordinal='24' />
+            <column datatype='integer' name='Apps reliability' ordinal='25' />
+            <column datatype='integer' name='Insatisfaction with apps' ordinal='26' />
+            <column datatype='integer' name='Desire to know' ordinal='27' />
+            <column datatype='integer' name='Feel bad for others to adapt' ordinal='28' />
+            <column datatype='integer' name='Good relationship with food' ordinal='29' />
+            <column datatype='string' name='New functionalities' ordinal='30' />
+            <column datatype='integer' name='Design (UX / UI)' ordinal='31' />
+            <column datatype='integer' name='Easy to use' ordinal='32' />
+            <column datatype='integer' name='Easy to understand' ordinal='33' />
+            <column datatype='integer' name='Variety of food' ordinal='34' />
+            <column datatype='integer' name='Variety of restrictions' ordinal='35' />
+            <column datatype='integer' name='Process Speed' ordinal='36' />
+            <column datatype='integer' name='Originality and innovation' ordinal='37' />
+            <column datatype='string' name='Food / Restrictions suggestions' ordinal='38' />
+            <column datatype='string' name='Additional comments' ordinal='39' />
+            <column datatype='string' name='Country' ordinal='40' />
+            <column datatype='string' name='City' ordinal='41' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0veb3nk044h4d21bo44yc1von5ai' name='Hoja1' table='[Hoja1$]' type='table'>
+          <columns gridOrigin='A1:AP88:no:A1:AP88:1' header='yes' lost='0' outcome='1' processed='2249'>
+            <column datatype='datetime' name='Timestamp' ordinal='0' />
+            <column datatype='string' name='mail or username' ordinal='1' />
+            <column datatype='string' name='First time answering?' ordinal='2' />
+            <column datatype='string' name='Full Name' ordinal='3' />
+            <column datatype='integer' name='Age' ordinal='4' />
+            <column datatype='string' name='Genre' ordinal='5' />
+            <column datatype='string' name='Device' ordinal='6' />
+            <column datatype='string' name='Discover EIP' ordinal='7' />
+            <column datatype='string' name='Restrictions' ordinal='8' />
+            <column datatype='integer' name='Alternatives' ordinal='9' />
+            <column datatype='integer' name='New' ordinal='10' />
+            <column datatype='integer' name='Plans' ordinal='11' />
+            <column datatype='integer' name='Knowledge' ordinal='12' />
+            <column datatype='integer' name='Groups' ordinal='13' />
+            <column datatype='integer' name='Health' ordinal='14' />
+            <column datatype='integer' name='Storage' ordinal='15' />
+            <column datatype='integer' name='Easy' ordinal='16' />
+            <column datatype='integer' name='Others' ordinal='17' />
+            <column datatype='string' name='Other EIP uses' ordinal='18' />
+            <column datatype='integer' name='Difficulty finding recipes' ordinal='19' />
+            <column datatype='integer' name='Difficult find alternatives' ordinal='20' />
+            <column datatype='integer' name='Difficult find best recipes' ordinal='21' />
+            <column datatype='integer' name='Difficult find restaurants' ordinal='22' />
+            <column datatype='integer' name='Interest in improving diet' ordinal='23' />
+            <column datatype='integer' name='Difficult to live with restrictions' ordinal='24' />
+            <column datatype='integer' name='Apps reliability' ordinal='25' />
+            <column datatype='integer' name='Insatisfaction with apps' ordinal='26' />
+            <column datatype='integer' name='Desire to know' ordinal='27' />
+            <column datatype='integer' name='Feel bad for others to adapt' ordinal='28' />
+            <column datatype='integer' name='Good relationship with food' ordinal='29' />
+            <column datatype='string' name='New functionalities' ordinal='30' />
+            <column datatype='integer' name='Design (UX / UI)' ordinal='31' />
+            <column datatype='integer' name='Easy to use' ordinal='32' />
+            <column datatype='integer' name='Easy to understand' ordinal='33' />
+            <column datatype='integer' name='Variety of food' ordinal='34' />
+            <column datatype='integer' name='Variety of restrictions' ordinal='35' />
+            <column datatype='integer' name='Process Speed' ordinal='36' />
+            <column datatype='integer' name='Originality and innovation' ordinal='37' />
+            <column datatype='string' name='Food / Restrictions suggestions' ordinal='38' />
+            <column datatype='string' name='Additional comments' ordinal='39' />
+            <column datatype='string' name='Country' ordinal='40' />
+            <column datatype='string' name='City' ordinal='41' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AP88:no:A1:AP88:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>2249</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Timestamp</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Timestamp]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Timestamp</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mail or username</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[mail or username]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>mail or username</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>First time answering?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[First time answering?]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>First time answering?</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Full Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Full Name]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Full Name</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Genre</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Genre]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Genre</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Device</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Device]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Device</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Discover EIP</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Discover EIP]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Discover EIP</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Restrictions</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Restrictions]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Restrictions</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Alternatives</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Alternatives]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Alternatives</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[New]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>New</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Plans</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Plans]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Plans</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Knowledge</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Knowledge]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Knowledge</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Groups</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Groups]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Groups</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Health</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Health]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Health</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Storage</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Storage]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Storage</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Easy</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Easy]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Easy</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Others</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Others]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Others</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other EIP uses</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Other EIP uses]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Other EIP uses</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Difficulty finding recipes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Difficulty finding recipes]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Difficulty finding recipes</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Difficult find alternatives</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Difficult find alternatives]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Difficult find alternatives</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Difficult find best recipes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Difficult find best recipes]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Difficult find best recipes</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Difficult find restaurants</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Difficult find restaurants]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Difficult find restaurants</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Interest in improving diet</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Interest in improving diet]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Interest in improving diet</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Difficult to live with restrictions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Difficult to live with restrictions]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Difficult to live with restrictions</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Apps reliability</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Apps reliability]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Apps reliability</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Insatisfaction with apps</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Insatisfaction with apps]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Insatisfaction with apps</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Desire to know</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Desire to know]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Desire to know</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Feel bad for others to adapt</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Feel bad for others to adapt]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Feel bad for others to adapt</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Good relationship with food</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Good relationship with food]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Good relationship with food</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New functionalities</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[New functionalities]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>New functionalities</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Design (UX / UI)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Design (UX / UI)]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Design (UX / UI)</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Easy to use</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Easy to use]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Easy to use</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Easy to understand</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Easy to understand]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Easy to understand</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Variety of food</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Variety of food]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Variety of food</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Variety of restrictions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Variety of restrictions]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Variety of restrictions</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Process Speed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Process Speed]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Process Speed</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Originality and innovation</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Originality and innovation]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Originality and innovation</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Food / Restrictions suggestions</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Food / Restrictions suggestions]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Food / Restrictions suggestions</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Additional comments</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Additional comments]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Additional comments</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>City</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[City]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>City</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='None' caption='Age1 (agrupación) 2' datatype='integer' name='[Age1 (agrupación) 2]' role='dimension' type='ordinal'>
+        <calculation class='bin' decimals='0' formula='[Age]' peg='0' size='5' />
+      </column>
+      <column aggregation='None' caption='Age1 (agrupación)' datatype='integer' name='[Age1 (agrupación)]' role='dimension' type='ordinal'>
+        <calculation class='bin' decimals='-2' formula='[Age]' peg='0' size='3.72' />
+      </column>
+      <column caption='Age1' datatype='integer' name='[Age]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Country1' datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+        <semantic-values semantic-role='[Country].[Name]'>
+          <semantic-value key='&quot;EEUU&quot;' value='&quot;Estados Unidos&quot;' />
+          <semantic-value key='&quot;Valencia&quot;' value='&quot;España&quot;' />
+        </semantic-values>
+      </column>
+      <column caption='Discover EIP1' datatype='string' name='[Discover EIP]' role='dimension' type='nominal' />
+      <column caption='Genre1' datatype='string' name='[Genre]' role='dimension' type='nominal' />
+      <column caption='Restrictions - División 1' datatype='string' name='[Restrictions - División 1]' role='dimension' type='nominal' user:SplitFieldIndex='1' user:SplitFieldOrigin='[federated.1rrq9vn0w56iti17620ee0uh52zy].[Restrictions]'>
+        <calculation class='tableau' formula='TRIM( SPLIT( [Restrictions], &quot;,&quot;, 1 ) )' />
+      </column>
+      <column caption='Restrictions - División 2' datatype='string' name='[Restrictions - División 2]' role='dimension' type='nominal' user:SplitFieldIndex='2' user:SplitFieldOrigin='[federated.1rrq9vn0w56iti17620ee0uh52zy].[Restrictions]'>
+        <calculation class='tableau' formula='TRIM( SPLIT( [Restrictions], &quot;,&quot;, 2 ) )' />
+      </column>
+      <column caption='Restrictions - División 3' datatype='string' name='[Restrictions - División 3]' role='dimension' type='nominal' user:SplitFieldIndex='3' user:SplitFieldOrigin='[federated.1rrq9vn0w56iti17620ee0uh52zy].[Restrictions]'>
+        <calculation class='tableau' formula='TRIM( SPLIT( [Restrictions], &quot;,&quot;, 3 ) )' />
+      </column>
+      <column caption='Restrictions - División 4' datatype='string' name='[Restrictions - División 4]' role='dimension' type='nominal' user:SplitFieldIndex='4' user:SplitFieldOrigin='[federated.1rrq9vn0w56iti17620ee0uh52zy].[Restrictions]'>
+        <calculation class='tableau' formula='TRIM( SPLIT( [Restrictions], &quot;,&quot;, 4 ) )' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='Hoja1' datatype='table' name='[__tableau_internal_object_id__].[Hoja1_7387D8A1E0884E69A6A85022560A08F2]' role='measure' type='quantitative' />
+      <column caption='Mail Or Username' datatype='string' name='[mail or username]' role='dimension' type='nominal' />
+      <column-instance column='[Age]' derivation='None' name='[none:Age:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Discover EIP]' derivation='None' name='[none:Discover EIP:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Genre]' derivation='None' name='[none:Genre:nk]' pivot='key' type='nominal' />
+      <group caption='Acción (Country1)' hidden='true' name='[Action (Country1)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Country]' />
+        </groupfilter>
+      </group>
+      <group caption='Acción (Discover EIP1)' hidden='true' name='[Action (Discover EIP1)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Discover EIP]' />
+        </groupfilter>
+      </group>
+      <group hidden='true' name='[Exclusiones (Age,Genre)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Age:ok]' />
+          <groupfilter function='level-members' level='[none:Genre:nk]' />
+        </groupfilter>
+      </group>
+      <group hidden='true' name='[Exclusiones (Age1,Genre1)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Age:ok]' />
+          <groupfilter function='level-members' level='[none:Genre:nk]' />
+        </groupfilter>
+      </group>
+      <drill-paths>
+        <drill-path name='Country, City'>
+          <field>[Country]</field>
+        </drill-path>
+      </drill-paths>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' rowDisplayCount='100' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Discover EIP:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;DM&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Groups MM&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Groups&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Instagram, Tiktok, Twitter, etc&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Friends&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Groups MM / Mensaje en un grupo de whatsapp&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Survey Circle&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;Linkedin&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Genre:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;F&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;M&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;España&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='Timestamp' />
+        <field-sort-custom-order field='mail or username' />
+        <field-sort-custom-order field='First time answering?' />
+        <field-sort-custom-order field='Full Name' />
+        <field-sort-custom-order field='Age' />
+        <field-sort-custom-order field='Genre' />
+        <field-sort-custom-order field='Device' />
+        <field-sort-custom-order field='Discover EIP' />
+        <field-sort-custom-order field='Restrictions' />
+        <field-sort-custom-order field='Calculation_1156299244765364224' />
+        <field-sort-custom-order field='Alternatives' />
+        <field-sort-custom-order field='New' />
+        <field-sort-custom-order field='Plans' />
+        <field-sort-custom-order field='Knowledge' />
+        <field-sort-custom-order field='Groups' />
+        <field-sort-custom-order field='Health' />
+        <field-sort-custom-order field='Storage' />
+        <field-sort-custom-order field='Easy' />
+        <field-sort-custom-order field='Others' />
+        <field-sort-custom-order field='Other EIP uses' />
+        <field-sort-custom-order field='Difficulty finding recipes' />
+        <field-sort-custom-order field='Difficult find alternatives' />
+        <field-sort-custom-order field='Difficult find best recipes' />
+        <field-sort-custom-order field='Difficult find restaurants' />
+        <field-sort-custom-order field='Interest in improving diet' />
+        <field-sort-custom-order field='Difficult to live with restrictions' />
+        <field-sort-custom-order field='Apps reliability' />
+        <field-sort-custom-order field='Insatisfaction with apps' />
+        <field-sort-custom-order field='Desire to know' />
+        <field-sort-custom-order field='Feel bad for others to adapt' />
+        <field-sort-custom-order field='Good relationship with food' />
+        <field-sort-custom-order field='New functionalities' />
+        <field-sort-custom-order field='Design (UX / UI)' />
+        <field-sort-custom-order field='Easy to use' />
+        <field-sort-custom-order field='Easy to understand' />
+        <field-sort-custom-order field='Variety of food' />
+        <field-sort-custom-order field='Variety of restrictions' />
+        <field-sort-custom-order field='Process Speed' />
+        <field-sort-custom-order field='Originality and innovation' />
+        <field-sort-custom-order field='Food / Restrictions suggestions' />
+        <field-sort-custom-order field='Additional comments' />
+        <field-sort-custom-order field='Country' />
+        <field-sort-custom-order field='City' />
+        <field-sort-custom-order field='Age1 (agrupación) 2' />
+        <field-sort-custom-order field='Age1 (agrupación)' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Hoja1' id='Hoja1_7387D8A1E0884E69A6A85022560A08F2'>
+            <properties context=''>
+              <relation connection='excel-direct.0veb3nk044h4d21bo44yc1von5ai' name='Hoja1' table='[Hoja1$]' type='table'>
+                <columns gridOrigin='A1:AP88:no:A1:AP88:1' header='yes' lost='0' outcome='1' processed='2249'>
+                  <column datatype='datetime' name='Timestamp' ordinal='0' />
+                  <column datatype='string' name='mail or username' ordinal='1' />
+                  <column datatype='string' name='First time answering?' ordinal='2' />
+                  <column datatype='string' name='Full Name' ordinal='3' />
+                  <column datatype='integer' name='Age' ordinal='4' />
+                  <column datatype='string' name='Genre' ordinal='5' />
+                  <column datatype='string' name='Device' ordinal='6' />
+                  <column datatype='string' name='Discover EIP' ordinal='7' />
+                  <column datatype='string' name='Restrictions' ordinal='8' />
+                  <column datatype='integer' name='Alternatives' ordinal='9' />
+                  <column datatype='integer' name='New' ordinal='10' />
+                  <column datatype='integer' name='Plans' ordinal='11' />
+                  <column datatype='integer' name='Knowledge' ordinal='12' />
+                  <column datatype='integer' name='Groups' ordinal='13' />
+                  <column datatype='integer' name='Health' ordinal='14' />
+                  <column datatype='integer' name='Storage' ordinal='15' />
+                  <column datatype='integer' name='Easy' ordinal='16' />
+                  <column datatype='integer' name='Others' ordinal='17' />
+                  <column datatype='string' name='Other EIP uses' ordinal='18' />
+                  <column datatype='integer' name='Difficulty finding recipes' ordinal='19' />
+                  <column datatype='integer' name='Difficult find alternatives' ordinal='20' />
+                  <column datatype='integer' name='Difficult find best recipes' ordinal='21' />
+                  <column datatype='integer' name='Difficult find restaurants' ordinal='22' />
+                  <column datatype='integer' name='Interest in improving diet' ordinal='23' />
+                  <column datatype='integer' name='Difficult to live with restrictions' ordinal='24' />
+                  <column datatype='integer' name='Apps reliability' ordinal='25' />
+                  <column datatype='integer' name='Insatisfaction with apps' ordinal='26' />
+                  <column datatype='integer' name='Desire to know' ordinal='27' />
+                  <column datatype='integer' name='Feel bad for others to adapt' ordinal='28' />
+                  <column datatype='integer' name='Good relationship with food' ordinal='29' />
+                  <column datatype='string' name='New functionalities' ordinal='30' />
+                  <column datatype='integer' name='Design (UX / UI)' ordinal='31' />
+                  <column datatype='integer' name='Easy to use' ordinal='32' />
+                  <column datatype='integer' name='Easy to understand' ordinal='33' />
+                  <column datatype='integer' name='Variety of food' ordinal='34' />
+                  <column datatype='integer' name='Variety of restrictions' ordinal='35' />
+                  <column datatype='integer' name='Process Speed' ordinal='36' />
+                  <column datatype='integer' name='Originality and innovation' ordinal='37' />
+                  <column datatype='string' name='Food / Restrictions suggestions' ordinal='38' />
+                  <column datatype='string' name='Additional comments' ordinal='39' />
+                  <column datatype='string' name='Country' ordinal='40' />
+                  <column datatype='string' name='City' ordinal='41' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Hoja1 (Base de datos Tableau)' inline='true' name='federated.1wsl0y01f99sti182u11g1xj21qi' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='BBDD Tableau' name='excel-direct.1gpcfes0dic55z198aqk21a2bzv0'>
+            <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='C:/Users/rebep/OneDrive/Desktop/TFM/Anexos/Documentos/BBDD Tableau.xlsx' interpretationMode='1' password='' server='' validate='no' />
+          </named-connection>
+          <named-connection caption='BBDD Tableau adiciona' name='excel-direct.1xffhv50hb3g2j1f30m291obu3n4'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/rebep/OneDrive/Desktop/TFM/Anexos/Documentos/BBDD Tableau adiciona.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1gpcfes0dic55z198aqk21a2bzv0' name='Hoja1' table='[Hoja1$]' type='table'>
+          <columns gridOrigin='A1:AP89:no:A1:AP89:1' lost='0' outcome='1' processed='2259'>
+            <column datatype='datetime' name='Timestamp' ordinal='0' />
+            <column datatype='string' name='mail or username' ordinal='1' />
+            <column datatype='string' name='First time answering?' ordinal='2' />
+            <column datatype='string' name='Full Name' ordinal='3' />
+            <column datatype='integer' name='Age' ordinal='4' />
+            <column datatype='string' name='Genre' ordinal='5' />
+            <column datatype='string' name='Device' ordinal='6' />
+            <column datatype='string' name='Discover EIP' ordinal='7' />
+            <column datatype='string' name='Restrictions' ordinal='8' />
+            <column datatype='integer' name='Alternatives' ordinal='9' />
+            <column datatype='integer' name='New' ordinal='10' />
+            <column datatype='integer' name='Plans' ordinal='11' />
+            <column datatype='integer' name='Knowledge' ordinal='12' />
+            <column datatype='integer' name='Groups' ordinal='13' />
+            <column datatype='integer' name='Health' ordinal='14' />
+            <column datatype='integer' name='Storage' ordinal='15' />
+            <column datatype='integer' name='Easy' ordinal='16' />
+            <column datatype='integer' name='Others' ordinal='17' />
+            <column datatype='string' name='Other EIP uses' ordinal='18' />
+            <column datatype='integer' name='Difficulty finding recipes' ordinal='19' />
+            <column datatype='integer' name='Difficult find alternatives' ordinal='20' />
+            <column datatype='integer' name='Difficult find best recipes' ordinal='21' />
+            <column datatype='integer' name='Difficult find restaurants' ordinal='22' />
+            <column datatype='integer' name='Interest in improving diet' ordinal='23' />
+            <column datatype='integer' name='Difficult to live with restrictions' ordinal='24' />
+            <column datatype='integer' name='Apps reliability' ordinal='25' />
+            <column datatype='integer' name='Insatisfaction with apps' ordinal='26' />
+            <column datatype='integer' name='Desire to know' ordinal='27' />
+            <column datatype='integer' name='Feel bad for others to adapt' ordinal='28' />
+            <column datatype='integer' name='Good relationship with food' ordinal='29' />
+            <column datatype='string' name='New functionalities' ordinal='30' />
+            <column datatype='integer' name='Design (UX / UI)' ordinal='31' />
+            <column datatype='integer' name='Easy to use' ordinal='32' />
+            <column datatype='integer' name='Easy to understand' ordinal='33' />
+            <column datatype='integer' name='Variety of food' ordinal='34' />
+            <column datatype='integer' name='Variety of restrictions' ordinal='35' />
+            <column datatype='integer' name='Process Speed' ordinal='36' />
+            <column datatype='integer' name='Originality and innovation' ordinal='37' />
+            <column datatype='string' name='Food / Restrictions suggestions' ordinal='38' />
+            <column datatype='string' name='Additional comments' ordinal='39' />
+            <column datatype='string' name='Country' ordinal='40' />
+            <column datatype='string' name='City' ordinal='41' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+          <relation connection='excel-direct.1gpcfes0dic55z198aqk21a2bzv0' name='Hoja1' table='[Hoja1$]' type='table'>
+            <columns gridOrigin='A1:AP89:no:A1:AP89:1' lost='0' outcome='1' processed='2259'>
+              <column datatype='datetime' name='Timestamp' ordinal='0' />
+              <column datatype='string' name='mail or username' ordinal='1' />
+              <column datatype='string' name='First time answering?' ordinal='2' />
+              <column datatype='string' name='Full Name' ordinal='3' />
+              <column datatype='integer' name='Age' ordinal='4' />
+              <column datatype='string' name='Genre' ordinal='5' />
+              <column datatype='string' name='Device' ordinal='6' />
+              <column datatype='string' name='Discover EIP' ordinal='7' />
+              <column datatype='string' name='Restrictions' ordinal='8' />
+              <column datatype='integer' name='Alternatives' ordinal='9' />
+              <column datatype='integer' name='New' ordinal='10' />
+              <column datatype='integer' name='Plans' ordinal='11' />
+              <column datatype='integer' name='Knowledge' ordinal='12' />
+              <column datatype='integer' name='Groups' ordinal='13' />
+              <column datatype='integer' name='Health' ordinal='14' />
+              <column datatype='integer' name='Storage' ordinal='15' />
+              <column datatype='integer' name='Easy' ordinal='16' />
+              <column datatype='integer' name='Others' ordinal='17' />
+              <column datatype='string' name='Other EIP uses' ordinal='18' />
+              <column datatype='integer' name='Difficulty finding recipes' ordinal='19' />
+              <column datatype='integer' name='Difficult find alternatives' ordinal='20' />
+              <column datatype='integer' name='Difficult find best recipes' ordinal='21' />
+              <column datatype='integer' name='Difficult find restaurants' ordinal='22' />
+              <column datatype='integer' name='Interest in improving diet' ordinal='23' />
+              <column datatype='integer' name='Difficult to live with restrictions' ordinal='24' />
+              <column datatype='integer' name='Apps reliability' ordinal='25' />
+              <column datatype='integer' name='Insatisfaction with apps' ordinal='26' />
+              <column datatype='integer' name='Desire to know' ordinal='27' />
+              <column datatype='integer' name='Feel bad for others to adapt' ordinal='28' />
+              <column datatype='integer' name='Good relationship with food' ordinal='29' />
+              <column datatype='string' name='New functionalities' ordinal='30' />
+              <column datatype='integer' name='Design (UX / UI)' ordinal='31' />
+              <column datatype='integer' name='Easy to use' ordinal='32' />
+              <column datatype='integer' name='Easy to understand' ordinal='33' />
+              <column datatype='integer' name='Variety of food' ordinal='34' />
+              <column datatype='integer' name='Variety of restrictions' ordinal='35' />
+              <column datatype='integer' name='Process Speed' ordinal='36' />
+              <column datatype='integer' name='Originality and innovation' ordinal='37' />
+              <column datatype='string' name='Food / Restrictions suggestions' ordinal='38' />
+              <column datatype='string' name='Additional comments' ordinal='39' />
+              <column datatype='string' name='Country' ordinal='40' />
+              <column datatype='string' name='City' ordinal='41' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1xffhv50hb3g2j1f30m291obu3n4' name='Hoja2' table='[Hoja2$]' type='table'>
+            <columns gridOrigin='A1:H117:no:A1:H117:0' header='yes' outcome='2'>
+              <column datatype='string' name='Timestamp' ordinal='0' />
+              <column datatype='string' name='mail or username' ordinal='1' />
+              <column datatype='string' name='Restrictions' ordinal='2' />
+              <column datatype='string' name='Columna1' ordinal='3' />
+              <column datatype='string' name='Columna2' ordinal='4' />
+              <column datatype='string' name='Columna3' ordinal='5' />
+              <column datatype='string' name='Columna4' ordinal='6' />
+              <column datatype='string' name='Columna11' ordinal='7' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <cols>
+          <map key='[Additional comments]' value='[Hoja1].[Additional comments]' />
+          <map key='[Age]' value='[Hoja1].[Age]' />
+          <map key='[Alternatives]' value='[Hoja1].[Alternatives]' />
+          <map key='[Apps reliability]' value='[Hoja1].[Apps reliability]' />
+          <map key='[City]' value='[Hoja1].[City]' />
+          <map key='[Columna11]' value='[Hoja2].[Columna11]' />
+          <map key='[Columna1]' value='[Hoja2].[Columna1]' />
+          <map key='[Columna2]' value='[Hoja2].[Columna2]' />
+          <map key='[Columna3]' value='[Hoja2].[Columna3]' />
+          <map key='[Columna4]' value='[Hoja2].[Columna4]' />
+          <map key='[Country]' value='[Hoja1].[Country]' />
+          <map key='[Design (UX / UI)]' value='[Hoja1].[Design (UX / UI)]' />
+          <map key='[Desire to know]' value='[Hoja1].[Desire to know]' />
+          <map key='[Device]' value='[Hoja1].[Device]' />
+          <map key='[Difficult find alternatives]' value='[Hoja1].[Difficult find alternatives]' />
+          <map key='[Difficult find best recipes]' value='[Hoja1].[Difficult find best recipes]' />
+          <map key='[Difficult find restaurants]' value='[Hoja1].[Difficult find restaurants]' />
+          <map key='[Difficult to live with restrictions]' value='[Hoja1].[Difficult to live with restrictions]' />
+          <map key='[Difficulty finding recipes]' value='[Hoja1].[Difficulty finding recipes]' />
+          <map key='[Discover EIP]' value='[Hoja1].[Discover EIP]' />
+          <map key='[Easy to understand]' value='[Hoja1].[Easy to understand]' />
+          <map key='[Easy to use]' value='[Hoja1].[Easy to use]' />
+          <map key='[Easy]' value='[Hoja1].[Easy]' />
+          <map key='[Feel bad for others to adapt]' value='[Hoja1].[Feel bad for others to adapt]' />
+          <map key='[First time answering?]' value='[Hoja1].[First time answering?]' />
+          <map key='[Food / Restrictions suggestions]' value='[Hoja1].[Food / Restrictions suggestions]' />
+          <map key='[Full Name]' value='[Hoja1].[Full Name]' />
+          <map key='[Genre]' value='[Hoja1].[Genre]' />
+          <map key='[Good relationship with food]' value='[Hoja1].[Good relationship with food]' />
+          <map key='[Groups]' value='[Hoja1].[Groups]' />
+          <map key='[Health]' value='[Hoja1].[Health]' />
+          <map key='[Insatisfaction with apps]' value='[Hoja1].[Insatisfaction with apps]' />
+          <map key='[Interest in improving diet]' value='[Hoja1].[Interest in improving diet]' />
+          <map key='[Knowledge]' value='[Hoja1].[Knowledge]' />
+          <map key='[New functionalities]' value='[Hoja1].[New functionalities]' />
+          <map key='[New]' value='[Hoja1].[New]' />
+          <map key='[Originality and innovation]' value='[Hoja1].[Originality and innovation]' />
+          <map key='[Other EIP uses]' value='[Hoja1].[Other EIP uses]' />
+          <map key='[Others]' value='[Hoja1].[Others]' />
+          <map key='[Plans]' value='[Hoja1].[Plans]' />
+          <map key='[Process Speed]' value='[Hoja1].[Process Speed]' />
+          <map key='[Restrictions (Hoja2)]' value='[Hoja2].[Restrictions]' />
+          <map key='[Restrictions]' value='[Hoja1].[Restrictions]' />
+          <map key='[Storage]' value='[Hoja1].[Storage]' />
+          <map key='[Timestamp (Hoja2)]' value='[Hoja2].[Timestamp]' />
+          <map key='[Timestamp]' value='[Hoja1].[Timestamp]' />
+          <map key='[Variety of food]' value='[Hoja1].[Variety of food]' />
+          <map key='[Variety of restrictions]' value='[Hoja1].[Variety of restrictions]' />
+          <map key='[mail or username (Hoja2)]' value='[Hoja2].[mail or username]' />
+          <map key='[mail or username]' value='[Hoja1].[mail or username]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>13</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AP89:no:A1:AP89:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>2259</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Hoja2]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:H117:no:A1:H117:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Timestamp</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Timestamp]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Timestamp</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_C045755ECBC147ABA89DB33E62014FE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mail or username</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[mail or username]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>mail or username</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_C045755ECBC147ABA89DB33E62014FE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>First time answering?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[First time answering?]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>First time answering?</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_C045755ECBC147ABA89DB33E62014FE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Full Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Full Name]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Full Name</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_C045755ECBC147ABA89DB33E62014FE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_C045755ECBC147ABA89DB33E62014FE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Genre</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Genre]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Genre</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_C045755ECBC147ABA89DB33E62014FE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Device</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Device]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Device</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_C045755ECBC147ABA89DB33E62014FE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Discover EIP</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Discover EIP]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Discover EIP</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_C045755ECBC147ABA89DB33E62014FE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Restrictions</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Restrictions]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Restrictions</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_C045755ECBC147ABA89DB33E62014FE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Alternatives</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Alternatives]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Alternatives</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_C045755ECBC147ABA89DB33E62014FE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[New]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>New</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_C045755ECBC147ABA89DB33E62014FE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Plans</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Plans]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Plans</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_C045755ECBC147ABA89DB33E62014FE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Knowledge</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Knowledge]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Knowledge</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_C045755ECBC147ABA89DB33E62014FE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Groups</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Groups]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Groups</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_C045755ECBC147ABA89DB33E62014FE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Health</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Health]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Health</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_C045755ECBC147ABA89DB33E62014FE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Storage</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Storage]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Storage</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_C045755ECBC147ABA89DB33E62014FE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Easy</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Easy]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Easy</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_C045755ECBC147ABA89DB33E62014FE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Others</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Others]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Others</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_C045755ECBC147ABA89DB33E62014FE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other EIP uses</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Other EIP uses]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Other EIP uses</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_C045755ECBC147ABA89DB33E62014FE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Difficulty finding recipes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Difficulty finding recipes]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Difficulty finding recipes</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_C045755ECBC147ABA89DB33E62014FE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Difficult find alternatives</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Difficult find alternatives]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Difficult find alternatives</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_C045755ECBC147ABA89DB33E62014FE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Difficult find best recipes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Difficult find best recipes]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Difficult find best recipes</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_C045755ECBC147ABA89DB33E62014FE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Difficult find restaurants</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Difficult find restaurants]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Difficult find restaurants</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_C045755ECBC147ABA89DB33E62014FE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Interest in improving diet</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Interest in improving diet]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Interest in improving diet</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_C045755ECBC147ABA89DB33E62014FE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Difficult to live with restrictions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Difficult to live with restrictions]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Difficult to live with restrictions</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_C045755ECBC147ABA89DB33E62014FE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Apps reliability</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Apps reliability]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Apps reliability</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_C045755ECBC147ABA89DB33E62014FE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Insatisfaction with apps</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Insatisfaction with apps]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Insatisfaction with apps</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_C045755ECBC147ABA89DB33E62014FE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Desire to know</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Desire to know]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Desire to know</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_C045755ECBC147ABA89DB33E62014FE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Feel bad for others to adapt</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Feel bad for others to adapt]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Feel bad for others to adapt</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_C045755ECBC147ABA89DB33E62014FE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Good relationship with food</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Good relationship with food]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Good relationship with food</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_C045755ECBC147ABA89DB33E62014FE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New functionalities</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[New functionalities]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>New functionalities</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_C045755ECBC147ABA89DB33E62014FE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Design (UX / UI)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Design (UX / UI)]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Design (UX / UI)</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_C045755ECBC147ABA89DB33E62014FE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Easy to use</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Easy to use]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Easy to use</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_C045755ECBC147ABA89DB33E62014FE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Easy to understand</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Easy to understand]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Easy to understand</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_C045755ECBC147ABA89DB33E62014FE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Variety of food</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Variety of food]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Variety of food</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_C045755ECBC147ABA89DB33E62014FE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Variety of restrictions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Variety of restrictions]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Variety of restrictions</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_C045755ECBC147ABA89DB33E62014FE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Process Speed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Process Speed]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Process Speed</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_C045755ECBC147ABA89DB33E62014FE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Originality and innovation</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Originality and innovation]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Originality and innovation</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_C045755ECBC147ABA89DB33E62014FE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Food / Restrictions suggestions</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Food / Restrictions suggestions]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Food / Restrictions suggestions</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_C045755ECBC147ABA89DB33E62014FE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Additional comments</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Additional comments]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Additional comments</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_C045755ECBC147ABA89DB33E62014FE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_C045755ECBC147ABA89DB33E62014FE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>City</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[City]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>City</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_C045755ECBC147ABA89DB33E62014FE7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Timestamp</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Timestamp (Hoja2)]</local-name>
+            <parent-name>[Hoja2]</parent-name>
+            <remote-alias>Timestamp</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja2_374E2444E2E540C182D7ED08D62BC0E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mail or username</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[mail or username (Hoja2)]</local-name>
+            <parent-name>[Hoja2]</parent-name>
+            <remote-alias>mail or username</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja2_374E2444E2E540C182D7ED08D62BC0E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Restrictions</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Restrictions (Hoja2)]</local-name>
+            <parent-name>[Hoja2]</parent-name>
+            <remote-alias>Restrictions</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja2_374E2444E2E540C182D7ED08D62BC0E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Columna1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Columna1]</local-name>
+            <parent-name>[Hoja2]</parent-name>
+            <remote-alias>Columna1</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja2_374E2444E2E540C182D7ED08D62BC0E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Columna2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Columna2]</local-name>
+            <parent-name>[Hoja2]</parent-name>
+            <remote-alias>Columna2</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja2_374E2444E2E540C182D7ED08D62BC0E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Columna3</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Columna3]</local-name>
+            <parent-name>[Hoja2]</parent-name>
+            <remote-alias>Columna3</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja2_374E2444E2E540C182D7ED08D62BC0E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Columna4</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Columna4]</local-name>
+            <parent-name>[Hoja2]</parent-name>
+            <remote-alias>Columna4</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja2_374E2444E2E540C182D7ED08D62BC0E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Columna11</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Columna11]</local-name>
+            <parent-name>[Hoja2]</parent-name>
+            <remote-alias>Columna11</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja2_374E2444E2E540C182D7ED08D62BC0E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Hoja1' datatype='table' name='[__tableau_internal_object_id__].[Hoja1_C045755ECBC147ABA89DB33E62014FE7]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Hoja2' datatype='table' name='[__tableau_internal_object_id__].[Hoja2_374E2444E2E540C182D7ED08D62BC0E6]' role='measure' type='quantitative' />
+      <column caption='Mail Or Username' datatype='string' name='[mail or username]' role='dimension' type='nominal' />
+      <column-instance column='[mail or username]' derivation='Count' name='[cnt:mail or username:qk]' pivot='key' type='quantitative' />
+      <drill-paths>
+        <drill-path name='Country, City'>
+          <field>[Country]</field>
+          <field>[City]</field>
+        </drill-path>
+      </drill-paths>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1wsl0y01f99sti182u11g1xj21qi]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[cnt:mail or username:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;España&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Hoja1' id='Hoja1_C045755ECBC147ABA89DB33E62014FE7'>
+            <properties context=''>
+              <relation connection='excel-direct.1gpcfes0dic55z198aqk21a2bzv0' name='Hoja1' table='[Hoja1$]' type='table'>
+                <columns gridOrigin='A1:AP89:no:A1:AP89:1' lost='0' outcome='1' processed='2259'>
+                  <column datatype='datetime' name='Timestamp' ordinal='0' />
+                  <column datatype='string' name='mail or username' ordinal='1' />
+                  <column datatype='string' name='First time answering?' ordinal='2' />
+                  <column datatype='string' name='Full Name' ordinal='3' />
+                  <column datatype='integer' name='Age' ordinal='4' />
+                  <column datatype='string' name='Genre' ordinal='5' />
+                  <column datatype='string' name='Device' ordinal='6' />
+                  <column datatype='string' name='Discover EIP' ordinal='7' />
+                  <column datatype='string' name='Restrictions' ordinal='8' />
+                  <column datatype='integer' name='Alternatives' ordinal='9' />
+                  <column datatype='integer' name='New' ordinal='10' />
+                  <column datatype='integer' name='Plans' ordinal='11' />
+                  <column datatype='integer' name='Knowledge' ordinal='12' />
+                  <column datatype='integer' name='Groups' ordinal='13' />
+                  <column datatype='integer' name='Health' ordinal='14' />
+                  <column datatype='integer' name='Storage' ordinal='15' />
+                  <column datatype='integer' name='Easy' ordinal='16' />
+                  <column datatype='integer' name='Others' ordinal='17' />
+                  <column datatype='string' name='Other EIP uses' ordinal='18' />
+                  <column datatype='integer' name='Difficulty finding recipes' ordinal='19' />
+                  <column datatype='integer' name='Difficult find alternatives' ordinal='20' />
+                  <column datatype='integer' name='Difficult find best recipes' ordinal='21' />
+                  <column datatype='integer' name='Difficult find restaurants' ordinal='22' />
+                  <column datatype='integer' name='Interest in improving diet' ordinal='23' />
+                  <column datatype='integer' name='Difficult to live with restrictions' ordinal='24' />
+                  <column datatype='integer' name='Apps reliability' ordinal='25' />
+                  <column datatype='integer' name='Insatisfaction with apps' ordinal='26' />
+                  <column datatype='integer' name='Desire to know' ordinal='27' />
+                  <column datatype='integer' name='Feel bad for others to adapt' ordinal='28' />
+                  <column datatype='integer' name='Good relationship with food' ordinal='29' />
+                  <column datatype='string' name='New functionalities' ordinal='30' />
+                  <column datatype='integer' name='Design (UX / UI)' ordinal='31' />
+                  <column datatype='integer' name='Easy to use' ordinal='32' />
+                  <column datatype='integer' name='Easy to understand' ordinal='33' />
+                  <column datatype='integer' name='Variety of food' ordinal='34' />
+                  <column datatype='integer' name='Variety of restrictions' ordinal='35' />
+                  <column datatype='integer' name='Process Speed' ordinal='36' />
+                  <column datatype='integer' name='Originality and innovation' ordinal='37' />
+                  <column datatype='string' name='Food / Restrictions suggestions' ordinal='38' />
+                  <column datatype='string' name='Additional comments' ordinal='39' />
+                  <column datatype='string' name='Country' ordinal='40' />
+                  <column datatype='string' name='City' ordinal='41' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+          <object caption='Hoja2' id='Hoja2_374E2444E2E540C182D7ED08D62BC0E6'>
+            <properties context=''>
+              <relation connection='excel-direct.1xffhv50hb3g2j1f30m291obu3n4' name='Hoja2' table='[Hoja2$]' type='table'>
+                <columns gridOrigin='A1:H117:no:A1:H117:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Timestamp' ordinal='0' />
+                  <column datatype='string' name='mail or username' ordinal='1' />
+                  <column datatype='string' name='Restrictions' ordinal='2' />
+                  <column datatype='string' name='Columna1' ordinal='3' />
+                  <column datatype='string' name='Columna2' ordinal='4' />
+                  <column datatype='string' name='Columna3' ordinal='5' />
+                  <column datatype='string' name='Columna4' ordinal='6' />
+                  <column datatype='string' name='Columna11' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[mail or username]' />
+              <expression op='[mail or username (Hoja2)]' />
+            </expression>
+            <first-end-point object-id='Hoja1_C045755ECBC147ABA89DB33E62014FE7' />
+            <second-end-point object-id='Hoja2_374E2444E2E540C182D7ED08D62BC0E6' />
+          </relationship>
+        </relationships>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <actions>
+    <action caption='Filtro 1 (generado)' name='[Action1_7F82D05401E84DF7AF5902CAE174B931]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Hoja 3' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Hoja 1'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Base de datos Tableau)' name='federated.1rrq9vn0w56iti17620ee0uh52zy' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1rrq9vn0w56iti17620ee0uh52zy'>
+            <column caption='Country1' datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+              <semantic-values semantic-role='[Country].[Name]'>
+                <semantic-value key='&quot;EEUU&quot;' value='&quot;Estados Unidos&quot;' />
+                <semantic-value key='&quot;Valencia&quot;' value='&quot;España&quot;' />
+              </semantic-values>
+            </column>
+            <column caption='Discover EIP1' datatype='string' name='[Discover EIP]' role='dimension' type='nominal' />
+            <column-instance column='[mail or username]' derivation='Count' name='[cnt:mail or username:qk]' pivot='key' type='quantitative' />
+            <column caption='Mail Or Username' datatype='string' name='[mail or username]' role='dimension' type='nominal' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1rrq9vn0w56iti17620ee0uh52zy].[Action (Discover EIP1)]'>
+            <groupfilter function='level-members' level='[Discover EIP]' user:ui-action-filter='[Action1_7F82D05401E84DF7AF5902CAE174B931]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1rrq9vn0w56iti17620ee0uh52zy].[Action (Discover EIP1)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1rrq9vn0w56iti17620ee0uh52zy].[Longitude (generated)]' field-type='quantitative' max='21197976.419995207' min='-17468152.22848253' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1rrq9vn0w56iti17620ee0uh52zy].[Latitude (generated)]' field-type='quantitative' max='18946699.506871112' min='-9857218.0508199316' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1rrq9vn0w56iti17620ee0uh52zy].[cnt:mail or username:qk]' num-steps='60' symmetric='false' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#55aaff</color>
+                <color>#63affb</color>
+                <color>#70b4f8</color>
+                <color>#7eb9f4</color>
+                <color>#8abef1</color>
+                <color>#97c2ed</color>
+                <color>#a3c6ea</color>
+                <color>#aecae6</color>
+                <color>#bacee3</color>
+                <color>#c4d2df</color>
+                <color>#cfd5dc</color>
+                <color>#d9d9d9</color>
+                <color>#9dcbe4</color>
+                <color>#8ec2df</color>
+                <color>#80b6d9</color>
+                <color>#73a8d0</color>
+                <color>#669bc7</color>
+                <color>#5c91bf</color>
+                <color>#5385b2</color>
+                <color>#487aa9</color>
+                <color>#3b6ea0</color>
+                <color>#306495</color>
+                <color>#2b5c8a</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1rrq9vn0w56iti17620ee0uh52zy].[cnt:mail or username:qk]' />
+              <lod column='[federated.1rrq9vn0w56iti17620ee0uh52zy].[none:Country:nk]' />
+              <geometry column='[federated.1rrq9vn0w56iti17620ee0uh52zy].[Geometry (generated)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1rrq9vn0w56iti17620ee0uh52zy].[Latitude (generated)]</rows>
+        <cols>[federated.1rrq9vn0w56iti17620ee0uh52zy].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{B8239863-5631-4134-83D2-233AB725A45B}' />
+    </worksheet>
+    <worksheet name='Hoja 2'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Base de datos Tableau)' name='federated.1rrq9vn0w56iti17620ee0uh52zy' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1rrq9vn0w56iti17620ee0uh52zy'>
+            <column aggregation='None' caption='Age1 (agrupación) 2' datatype='integer' name='[Age1 (agrupación) 2]' role='dimension' type='ordinal'>
+              <calculation class='bin' decimals='0' formula='[Age]' peg='0' size='5' />
+            </column>
+            <column aggregation='None' caption='Age1 (agrupación)' datatype='integer' name='[Age1 (agrupación)]' role='dimension' type='ordinal'>
+              <calculation class='bin' decimals='-2' formula='[Age]' peg='0' size='3.72' />
+            </column>
+            <column caption='Age1' datatype='integer' name='[Age]' role='dimension' type='ordinal' />
+            <column caption='Discover EIP1' datatype='string' name='[Discover EIP]' role='dimension' type='nominal' />
+            <column caption='Genre1' datatype='string' name='[Genre]' role='dimension' type='nominal' />
+            <column-instance column='[mail or username]' derivation='Count' name='[cnt:mail or username:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Age]' derivation='CountD' name='[ctd:Age:qk]' pivot='key' type='quantitative' />
+            <column caption='Mail Or Username' datatype='string' name='[mail or username]' role='dimension' type='nominal' />
+            <column-instance column='[Age1 (agrupación) 2]' derivation='None' name='[none:Age1 (agrupación) 2:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Age1 (agrupación)]' derivation='None' name='[none:Age1 (agrupación):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Age]' derivation='None' name='[none:Age:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Genre]' derivation='None' name='[none:Genre:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1rrq9vn0w56iti17620ee0uh52zy].[Action (Discover EIP1)]'>
+            <groupfilter function='level-members' level='[Discover EIP]' user:ui-action-filter='[Action1_7F82D05401E84DF7AF5902CAE174B931]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1rrq9vn0w56iti17620ee0uh52zy].[Exclusiones (Age1,Genre1)]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='level-members' level='[none:Age:ok]' />
+                <groupfilter function='level-members' level='[none:Genre:nk]' />
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[none:Age:ok]' member='%null%' />
+                <groupfilter function='member' level='[none:Genre:nk]' member='%null%' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.1rrq9vn0w56iti17620ee0uh52zy].[ctd:Age:qk]' included-values='non-null' />
+          <filter class='categorical' column='[federated.1rrq9vn0w56iti17620ee0uh52zy].[none:Age1 (agrupación):ok]'>
+            <groupfilter function='level-members' level='[none:Age1 (agrupación):ok]' />
+          </filter>
+          <slices>
+            <column>[federated.1rrq9vn0w56iti17620ee0uh52zy].[ctd:Age:qk]</column>
+            <column>[federated.1rrq9vn0w56iti17620ee0uh52zy].[Exclusiones (Age1,Genre1)]</column>
+            <column>[federated.1rrq9vn0w56iti17620ee0uh52zy].[none:Age1 (agrupación):ok]</column>
+            <column>[federated.1rrq9vn0w56iti17620ee0uh52zy].[Action (Discover EIP1)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1rrq9vn0w56iti17620ee0uh52zy].[cnt:mail or username:qk]' scope='rows' value='Users by Age grouping (from)' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1rrq9vn0w56iti17620ee0uh52zy].[none:Genre:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1rrq9vn0w56iti17620ee0uh52zy].[cnt:mail or username:qk]</rows>
+        <cols>[federated.1rrq9vn0w56iti17620ee0uh52zy].[none:Age1 (agrupación) 2:ok]</cols>
+        <show-full-range>
+          <column>[federated.1rrq9vn0w56iti17620ee0uh52zy].[Age1 (agrupación) 2]</column>
+          <column>[federated.1rrq9vn0w56iti17620ee0uh52zy].[Age1 (agrupación)]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{8589211C-4321-40F2-AA7B-BE6CE9257BE0}' />
+    </worksheet>
+    <worksheet name='Hoja 3'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Base de datos Tableau)' name='federated.1rrq9vn0w56iti17620ee0uh52zy' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1rrq9vn0w56iti17620ee0uh52zy'>
+            <column caption='Discover EIP1' datatype='string' name='[Discover EIP]' role='dimension' type='nominal' />
+            <column-instance column='[mail or username]' derivation='Count' name='[cnt:mail or username:qk]' pivot='key' type='quantitative' />
+            <column caption='Mail Or Username' datatype='string' name='[mail or username]' role='dimension' type='nominal' />
+            <column-instance column='[Discover EIP]' derivation='None' name='[none:Discover EIP:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1rrq9vn0w56iti17620ee0uh52zy].[none:Discover EIP:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Discover EIP:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Discover EIP:nk]' member='%null%' />
+                <groupfilter function='member' level='[none:Discover EIP:nk]' member='&quot;Groups MM&quot;' />
+                <groupfilter function='member' level='[none:Discover EIP:nk]' member='&quot;Groups MM / Mensaje en un grupo de whatsapp&quot;' />
+                <groupfilter function='member' level='[none:Discover EIP:nk]' member='&quot;Linkedin&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1rrq9vn0w56iti17620ee0uh52zy].[none:Discover EIP:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.1rrq9vn0w56iti17620ee0uh52zy].[none:Discover EIP:nk]' />
+              <wedge-size column='[federated.1rrq9vn0w56iti17620ee0uh52zy].[cnt:mail or username:qk]' />
+              <size column='[federated.1rrq9vn0w56iti17620ee0uh52zy].[cnt:mail or username:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{3A32AB1C-7EFB-4935-9AC7-D230AA18C854}' />
+    </worksheet>
+    <worksheet name='Hoja 4'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Hoja2 (BBDD Tableau adiciona)' name='federated.0myvqlr0lvpskm1324tu21h6p927' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0myvqlr0lvpskm1324tu21h6p927'>
+            <column datatype='string' name='[Restrictions]' role='dimension' type='nominal' />
+            <column-instance column='[mail or username]' derivation='Count' name='[cnt:mail or username:qk]' pivot='key' type='quantitative' />
+            <column caption='Mail Or Username' datatype='string' name='[mail or username]' role='dimension' type='nominal' />
+            <column-instance column='[Restrictions]' derivation='None' name='[none:Restrictions:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0myvqlr0lvpskm1324tu21h6p927].[none:Restrictions:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Restrictions:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Restrictions:nk]' member='%null%' />
+                <groupfilter function='member' level='[none:Restrictions:nk]' member='&quot;Convivencia&quot;' />
+                <groupfilter function='member' level='[none:Restrictions:nk]' member='&quot;Trying different alternatives and varieties of food&quot;' />
+                <groupfilter function='member' level='[none:Restrictions:nk]' member='&quot;Vegetariano - halal - otros&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.0myvqlr0lvpskm1324tu21h6p927].[none:Restrictions:nk]' direction='DESC' using='[federated.0myvqlr0lvpskm1324tu21h6p927].[cnt:mail or username:qk]' />
+          <slices>
+            <column>[federated.0myvqlr0lvpskm1324tu21h6p927].[none:Restrictions:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0myvqlr0lvpskm1324tu21h6p927].[cnt:mail or username:qk]' scope='rows' value='Usuarios' />
+            <format attr='title' class='0' field='[federated.0myvqlr0lvpskm1324tu21h6p927].[cnt:mail or username:qk]' scope='cols' value='users' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0myvqlr0lvpskm1324tu21h6p927].[none:Restrictions:nk]</rows>
+        <cols>[federated.0myvqlr0lvpskm1324tu21h6p927].[cnt:mail or username:qk]</cols>
+      </table>
+      <simple-id uuid='{2EF92FAE-4C79-477D-8485-C9DAC591122E}' />
+    </worksheet>
+    <worksheet name='Hoja 5'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Hoja1 (Base de datos Tableau)' name='federated.1wsl0y01f99sti182u11g1xj21qi' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1wsl0y01f99sti182u11g1xj21qi'>
+            <column datatype='integer' name='[Easy to understand]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Easy to use]' role='measure' type='quantitative' />
+            <column-instance column='[Easy to understand]' derivation='Avg' name='[avg:Easy to understand:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Easy to use]' derivation='Avg' name='[avg:Easy to use:qk]' pivot='key' type='quantitative' />
+            <column caption='Mail Or Username' datatype='string' name='[mail or username]' role='dimension' type='nominal' />
+            <column-instance column='[mail or username]' derivation='None' name='[none:mail or username:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Easy to understand:qk]' included-values='in-range'>
+            <min>1.0</min>
+            <max>5.0</max>
+          </filter>
+          <filter class='quantitative' column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Easy to use:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Easy to understand:qk]</column>
+            <column>[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Easy to use:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.1wsl0y01f99sti182u11g1xj21qi].[none:mail or username:nk]' />
+            </encodings>
+            <reference-line axis-column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Easy to understand:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Easy to understand:qk]' z-order='1' />
+            <reference-line axis-column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Easy to use:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline1' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Easy to use:qk]' z-order='2' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Easy to understand:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.1wsl0y01f99sti182u11g1xj21qi].[none:mail or username:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Easy to use:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.1wsl0y01f99sti182u11g1xj21qi].[none:mail or username:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Easy to understand:qk] + [federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Easy to use:qk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{5ED8202A-BB3F-4701-B378-DC4D120F937B}' />
+    </worksheet>
+    <worksheet name='Hoja 6'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Hoja1 (Base de datos Tableau)' name='federated.1wsl0y01f99sti182u11g1xj21qi' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1wsl0y01f99sti182u11g1xj21qi'>
+            <column datatype='integer' name='[Design (UX / UI)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Process Speed]' role='measure' type='quantitative' />
+            <column-instance column='[Design (UX / UI)]' derivation='Avg' name='[avg:Design (UX / UI):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Process Speed]' derivation='Avg' name='[avg:Process Speed:qk]' pivot='key' type='quantitative' />
+            <column caption='Mail Or Username' datatype='string' name='[mail or username]' role='dimension' type='nominal' />
+            <column-instance column='[mail or username]' derivation='None' name='[none:mail or username:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Design (UX / UI):qk]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Process Speed:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Process Speed:qk]</column>
+            <column>[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Design (UX / UI):qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.1wsl0y01f99sti182u11g1xj21qi].[none:mail or username:nk]' />
+            </encodings>
+            <reference-line axis-column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Design (UX / UI):qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Design (UX / UI):qk]' z-order='1' />
+            <reference-line axis-column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Process Speed:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline1' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Process Speed:qk]' z-order='2' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Design (UX / UI):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.1wsl0y01f99sti182u11g1xj21qi].[none:mail or username:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Process Speed:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.1wsl0y01f99sti182u11g1xj21qi].[none:mail or username:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Design (UX / UI):qk] + [federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Process Speed:qk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{7EB96736-590B-45C6-B946-5F53212CFFA4}' />
+    </worksheet>
+    <worksheet name='Hoja 7'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Hoja1 (Base de datos Tableau)' name='federated.1wsl0y01f99sti182u11g1xj21qi' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1wsl0y01f99sti182u11g1xj21qi'>
+            <column datatype='integer' name='[Variety of food]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Variety of restrictions]' role='measure' type='quantitative' />
+            <column-instance column='[Variety of food]' derivation='Avg' name='[avg:Variety of food:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Variety of restrictions]' derivation='Avg' name='[avg:Variety of restrictions:qk]' pivot='key' type='quantitative' />
+            <column caption='Mail Or Username' datatype='string' name='[mail or username]' role='dimension' type='nominal' />
+            <column-instance column='[mail or username]' derivation='None' name='[none:mail or username:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Variety of food:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Variety of food:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.1wsl0y01f99sti182u11g1xj21qi].[none:mail or username:nk]' />
+            </encodings>
+            <reference-line axis-column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Variety of food:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Variety of food:qk]' z-order='1' />
+            <reference-line axis-column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Variety of restrictions:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline1' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Variety of restrictions:qk]' z-order='2' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Variety of food:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.1wsl0y01f99sti182u11g1xj21qi].[none:mail or username:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Variety of restrictions:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.1wsl0y01f99sti182u11g1xj21qi].[none:mail or username:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Variety of food:qk] + [federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Variety of restrictions:qk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{0E899557-A360-400B-B756-379B91707EF1}' />
+    </worksheet>
+    <worksheet name='Hoja 8'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Dificultades</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Hoja1 (Base de datos Tableau)' name='federated.1wsl0y01f99sti182u11g1xj21qi' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1wsl0y01f99sti182u11g1xj21qi'>
+            <column datatype='integer' name='[Difficult find alternatives]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Difficult find best recipes]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Difficult find restaurants]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Difficult to live with restrictions]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Difficulty finding recipes]' role='measure' type='quantitative' />
+            <column-instance column='[Difficult find alternatives]' derivation='Avg' name='[avg:Difficult find alternatives:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Difficult find best recipes]' derivation='Avg' name='[avg:Difficult find best recipes:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Difficult find restaurants]' derivation='Avg' name='[avg:Difficult find restaurants:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Difficult to live with restrictions]' derivation='Avg' name='[avg:Difficult to live with restrictions:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Difficulty finding recipes]' derivation='Sum' name='[sum:Difficulty finding recipes:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1wsl0y01f99sti182u11g1xj21qi].[:Measure Names]'>
+            <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Difficult find alternatives:qk]&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <manual-sort column='[federated.1wsl0y01f99sti182u11g1xj21qi].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Difficult find alternatives:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Difficult find best recipes:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Difficult find restaurants:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Difficult to live with restrictions:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[sum:Difficulty finding recipes:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1wsl0y01f99sti182u11g1xj21qi].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1wsl0y01f99sti182u11g1xj21qi].[:Measure Names]</rows>
+        <cols>[federated.1wsl0y01f99sti182u11g1xj21qi].[Multiple Values]</cols>
+      </table>
+      <simple-id uuid='{4A2096CB-425C-40E2-8BE0-C7DD9D982065}' />
+    </worksheet>
+    <worksheet name='Hoja 9'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Hoja1 (Base de datos Tableau)' name='federated.1wsl0y01f99sti182u11g1xj21qi' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1wsl0y01f99sti182u11g1xj21qi'>
+            <column datatype='integer' name='[Apps reliability]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Insatisfaction with apps]' role='measure' type='quantitative' />
+            <column-instance column='[mail or username]' derivation='Count' name='[cnt:mail or username:qk]' pivot='key' type='quantitative' />
+            <column caption='Mail Or Username' datatype='string' name='[mail or username]' role='dimension' type='nominal' />
+            <column-instance column='[Apps reliability]' derivation='None' name='[none:Apps reliability:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Insatisfaction with apps]' derivation='Sum' name='[sum:Insatisfaction with apps:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1wsl0y01f99sti182u11g1xj21qi].[cnt:mail or username:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1wsl0y01f99sti182u11g1xj21qi].[sum:Insatisfaction with apps:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>([federated.1wsl0y01f99sti182u11g1xj21qi].[cnt:mail or username:qk] + [federated.1wsl0y01f99sti182u11g1xj21qi].[sum:Insatisfaction with apps:qk])</rows>
+        <cols>[federated.1wsl0y01f99sti182u11g1xj21qi].[none:Apps reliability:qk]</cols>
+      </table>
+      <simple-id uuid='{D2FEF9E9-2A28-40E4-9FEB-93189E8904F9}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='49000' id='3' name='Hoja 1' w='50300' x='800' y='1000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='49000' id='9' name='Hoja 2' w='76900' x='800' y='50000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='49000' id='21' name='Hoja 4' w='48100' x='51100' y='1000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='25000' id='13' name='Hoja 3' w='21500' x='77700' y='50000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='24000' id='14' name='Hoja 3' pane-specification-id='0' param='[federated.1rrq9vn0w56iti17620ee0uh52zy].[none:Discover EIP:nk]' type-v2='color' w='21500' x='77700' y='75000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='850' minheight='850' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='20' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='19' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='188' h='24500' id='13' is-fixed='true' name='Hoja 3' w='22600' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='24500' id='14' name='Hoja 3' pane-specification-id='0' param='[federated.1rrq9vn0w56iti17620ee0uh52zy].[none:Discover EIP:nk]' type-v2='color' w='22600' x='800' y='25500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='3' is-fixed='true' name='Hoja 1' w='75800' x='23400' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='9' is-fixed='true' name='Hoja 2' w='98400' x='800' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{1C1BBF5D-E7E1-4DB4-8139-F091A486E2CB}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 2'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='3' name='Hoja 5' w='32500' x='800' y='1000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='98000' id='5' name='Hoja 6' w='33300' x='33300' y='1000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='98000' id='6' name='Hoja 7' w='32600' x='66600' y='1000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{EBDA6720-F45F-4390-B35B-A2DA57EA7265}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 3'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type-v2='layout-basic' w='82400' x='800' y='1000'>
+              <zone h='98000' id='3' name='Hoja 8' w='82400' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98000' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='16000' x='83200' y='1000'>
+              <zone h='7375' id='8' name='Hoja 8' pane-specification-id='1' param='[federated.1wsl0y01f99sti182u11g1xj21qi].[:Measure Names]' type-v2='color' w='16000' x='83200' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='10125' id='9' name='Hoja 8' pane-specification-id='2' param='[federated.1wsl0y01f99sti182u11g1xj21qi].[sum:Difficult find alternatives:qk]' type-v2='color' w='16000' x='83200' y='8375'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='10125' id='10' name='Hoja 8' pane-specification-id='4' param='[federated.1wsl0y01f99sti182u11g1xj21qi].[sum:Difficult to live with restrictions:qk]' type-v2='color' w='16000' x='83200' y='18500'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{385BD058-F483-4C34-AB0A-A8C70D2F0B9A}' />
+    </dashboard>
+    <dashboard name='Historia 1' type='storyboard'>
+      <style />
+      <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98340' id='1' param='vert' removable='false' type-v2='layout-flow' w='98426' x='787' y='830'>
+            <zone h='5187' id='3' type-v2='title' w='98426' x='787' y='830' />
+            <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98426' x='787' y='6017' />
+            <zone h='82676' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98426' x='787' y='16494'>
+              <flipboard active-id='1' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point caption='Usuarios' captured-sheet='Dashboard 1' id='1'>
+                    <capturedDeltas>
+                      <worksheet name='Hoja 1'>
+                        <style delta-type='added'>
+                          <style-rule element='axis'>
+                            <encoding attr='space' class='0' field='[federated.1rrq9vn0w56iti17620ee0uh52zy].[Longitude (generated)]' field-type='quantitative' max='21197976.419995204' min='-17468152.22848253' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+                          </style-rule>
+                        </style>
+                      </worksheet>
+                    </capturedDeltas>
+                  </story-point>
+                  <story-point caption='App' captured-sheet='Dashboard 2' id='2' />
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{8881F0F8-579B-4A12-A6F9-A0898F665048}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.5' source-height='106'>
+    <window class='worksheet' name='Hoja 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='174'>
+            <card pane-specification-id='0' param='[federated.1rrq9vn0w56iti17620ee0uh52zy].[cnt:mail or username:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7F3AD9A0-5E4C-412A-9A70-0DF752AEDC9A}' />
+    </window>
+    <window class='worksheet' name='Hoja 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='174'>
+            <card param='[federated.1rrq9vn0w56iti17620ee0uh52zy].[none:Age1 (agrupación):ok]' type='filter' />
+            <card pane-specification-id='0' param='[federated.1rrq9vn0w56iti17620ee0uh52zy].[none:Genre:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{CB6954C8-00B7-45E3-AB51-C42F5BAAF4DF}' />
+    </window>
+    <window class='worksheet' name='Hoja 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='174'>
+            <card pane-specification-id='0' param='[federated.1rrq9vn0w56iti17620ee0uh52zy].[none:Discover EIP:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.1rrq9vn0w56iti17620ee0uh52zy].[cnt:mail or username:qk]' type='size' />
+            <card AVG='true' KURTOSIS='false' MAX='true' MEDIAN='true' MIN='true' QUART1='false' QUART3='false' SKEWNESS='false' STDEV='false' SUM='true' type='summary' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{67B19F1E-BF9D-42FA-AB80-34279BF74E2F}' />
+    </window>
+    <window class='worksheet' name='Hoja 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{213D5DAA-2DCC-418D-8060-9674EE6C765A}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Hoja 1'>
+          <zoom type='entire-view' />
+          <default-map-tool-selection tool='1' />
+        </viewpoint>
+        <viewpoint name='Hoja 2'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Hoja 3' />
+        <viewpoint name='Hoja 4' />
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{CAE58174-C163-4C37-B09C-4B46ED5EC45A}' />
+    </window>
+    <window class='worksheet' name='Hoja 5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D68FF131-AAF1-4267-9A4D-A9C153C61566}' />
+    </window>
+    <window class='worksheet' name='Hoja 6'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5A1DB697-AB04-4950-A1E4-5E439205E0DD}' />
+    </window>
+    <window class='worksheet' name='Hoja 7'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8F777EC1-08CC-4397-8FC2-CD8321045324}' />
+    </window>
+    <window class='dashboard' name='Dashboard 2'>
+      <viewpoints>
+        <viewpoint name='Hoja 5'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Hoja 6'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Hoja 7'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{F6C2F922-5D1C-40E9-B235-9553D89F0E15}' />
+    </window>
+    <window class='dashboard' name='Historia 1'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{1F2EC23E-B374-4C5F-AF52-0F26F675381B}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Hoja 8'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5A08F4A7-2CA2-473A-B57B-57A8E4028D47}' />
+    </window>
+    <window class='worksheet' name='Hoja 9'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{3576B5B9-6433-4921-8480-356CF943950A}' />
+    </window>
+    <window class='dashboard' name='Dashboard 3'>
+      <viewpoints>
+        <viewpoint name='Hoja 8'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='3' />
+      <simple-id uuid='{6F00F43C-5743-48C3-BF31-00FF1774DE2E}' />
+    </window>
+  </windows>
+</workbook>
