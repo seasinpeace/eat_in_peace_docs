@@ -26,6 +26,211 @@
     </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
   </_.fcp.AnimationOnByDefault.false...style>
   <datasources>
+    <datasource caption='Hoja2 (BBDD Tableau adiciona)' inline='true' name='federated.0myvqlr0lvpskm1324tu21h6p927' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='BBDD Tableau adiciona' name='excel-direct.0lyoiqt0ttwxze1fgsaed1r1mh9m'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/rebep/OneDrive/Desktop/TFM/Anexos/Documentos/BBDD Tableau adiciona.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0lyoiqt0ttwxze1fgsaed1r1mh9m' name='Hoja2' table='[Hoja2$]' type='table'>
+          <columns gridOrigin='A1:H117:no:A1:H117:0' header='yes' outcome='2'>
+            <column datatype='string' name='Timestamp' ordinal='0' />
+            <column datatype='string' name='mail or username' ordinal='1' />
+            <column datatype='string' name='Restrictions' ordinal='2' />
+            <column datatype='string' name='Columna1' ordinal='3' />
+            <column datatype='string' name='Columna2' ordinal='4' />
+            <column datatype='string' name='Columna3' ordinal='5' />
+            <column datatype='string' name='Columna4' ordinal='6' />
+            <column datatype='string' name='Columna11' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0lyoiqt0ttwxze1fgsaed1r1mh9m' name='Hoja2' table='[Hoja2$]' type='table'>
+          <columns gridOrigin='A1:H117:no:A1:H117:0' header='yes' outcome='2'>
+            <column datatype='string' name='Timestamp' ordinal='0' />
+            <column datatype='string' name='mail or username' ordinal='1' />
+            <column datatype='string' name='Restrictions' ordinal='2' />
+            <column datatype='string' name='Columna1' ordinal='3' />
+            <column datatype='string' name='Columna2' ordinal='4' />
+            <column datatype='string' name='Columna3' ordinal='5' />
+            <column datatype='string' name='Columna4' ordinal='6' />
+            <column datatype='string' name='Columna11' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Hoja2]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:H117:no:A1:H117:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Timestamp</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Timestamp]</local-name>
+            <parent-name>[Hoja2]</parent-name>
+            <remote-alias>Timestamp</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja2_0A69F34062654FECAEA8E90140EC86B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mail or username</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[mail or username]</local-name>
+            <parent-name>[Hoja2]</parent-name>
+            <remote-alias>mail or username</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja2_0A69F34062654FECAEA8E90140EC86B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Restrictions</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Restrictions]</local-name>
+            <parent-name>[Hoja2]</parent-name>
+            <remote-alias>Restrictions</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja2_0A69F34062654FECAEA8E90140EC86B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Columna1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Columna1]</local-name>
+            <parent-name>[Hoja2]</parent-name>
+            <remote-alias>Columna1</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja2_0A69F34062654FECAEA8E90140EC86B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Columna2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Columna2]</local-name>
+            <parent-name>[Hoja2]</parent-name>
+            <remote-alias>Columna2</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja2_0A69F34062654FECAEA8E90140EC86B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Columna3</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Columna3]</local-name>
+            <parent-name>[Hoja2]</parent-name>
+            <remote-alias>Columna3</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja2_0A69F34062654FECAEA8E90140EC86B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Columna4</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Columna4]</local-name>
+            <parent-name>[Hoja2]</parent-name>
+            <remote-alias>Columna4</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja2_0A69F34062654FECAEA8E90140EC86B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Columna11</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Columna11]</local-name>
+            <parent-name>[Hoja2]</parent-name>
+            <remote-alias>Columna11</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja2_0A69F34062654FECAEA8E90140EC86B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Hoja2' datatype='table' name='[__tableau_internal_object_id__].[Hoja2_0A69F34062654FECAEA8E90140EC86B2]' role='measure' type='quantitative' />
+      <column caption='Mail Or Username' datatype='string' name='[mail or username]' role='dimension' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;España&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Hoja2' id='Hoja2_0A69F34062654FECAEA8E90140EC86B2'>
+            <properties context=''>
+              <relation connection='excel-direct.0lyoiqt0ttwxze1fgsaed1r1mh9m' name='Hoja2' table='[Hoja2$]' type='table'>
+                <columns gridOrigin='A1:H117:no:A1:H117:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Timestamp' ordinal='0' />
+                  <column datatype='string' name='mail or username' ordinal='1' />
+                  <column datatype='string' name='Restrictions' ordinal='2' />
+                  <column datatype='string' name='Columna1' ordinal='3' />
+                  <column datatype='string' name='Columna2' ordinal='4' />
+                  <column datatype='string' name='Columna3' ordinal='5' />
+                  <column datatype='string' name='Columna4' ordinal='6' />
+                  <column datatype='string' name='Columna11' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
     <datasource caption='Hoja1 (Base de datos Tableau)' inline='true' name='federated.1wsl0y01f99sti182u11g1xj21qi' version='18.1'>
       <connection class='federated'>
         <named-connections>
@@ -33,7 +238,7 @@
             <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='C:/Users/rebep/OneDrive/Desktop/TFM/Anexos/Documentos/BBDD Tableau.xlsx' interpretationMode='1' password='' server='' validate='no' />
           </named-connection>
           <named-connection caption='BBDD Tableau adiciona' name='excel-direct.1xffhv50hb3g2j1f30m291obu3n4'>
-            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/rebep/OneDrive/Desktop/TFM/Anexos/Documentos/BBDD Tableau adiciona.xlsx' interpretationMode='0' password='' server='' validate='no' />
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/rebep/OneDrive/Desktop/TFM/Anexos/Documentos/BBDD Tableau adicional.xlsx' interpretationMode='0' password='' server='' validate='no' />
           </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1gpcfes0dic55z198aqk21a2bzv0' name='Hoja1' table='[Hoja1$]' type='table'>
@@ -203,7 +408,7 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <attributes>
-              <attribute datatype='integer' name='context'>8</attribute>
+              <attribute datatype='integer' name='context'>9</attribute>
               <attribute datatype='string' name='gridOrigin'>&quot;A1:AP89:no:A1:AP89:1&quot;</attribute>
               <attribute datatype='integer' name='lost'>0</attribute>
               <attribute datatype='integer' name='outcome'>1</attribute>
@@ -998,51 +1203,12 @@
         </metadata-records>
       </connection>
       <aliases enabled='yes' />
-      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
-        <aliases>
-          <alias key='&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Difficult find alternatives:qk]&quot;' value='Rec. alternativas' />
-          <alias key='&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Difficult find best recipes:qk]&quot;' value='Rec. Mejores' />
-          <alias key='&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Difficult find restaurants:qk]&quot;' value='Restaurante' />
-          <alias key='&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Difficult to live with restrictions:qk]&quot;' value='Hábitos' />
-          <alias key='&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Difficulty finding recipes:qk]&quot;' value='Rec. Restricciones' />
-          <alias key='&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[sum:Difficult find alternatives:qk]&quot;' value='Rec. Alternativas' />
-          <alias key='&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[sum:Difficult find best recipes:qk]&quot;' value='Rec. Buenas' />
-          <alias key='&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[sum:Difficult find restaurants:qk]&quot;' value='Restaurantes' />
-          <alias key='&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[sum:Difficult to live with restrictions:qk]&quot;' value='Día a día' />
-          <alias key='&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[sum:Difficulty finding recipes:qk]&quot;' value='Recetas ' />
-        </aliases>
-      </column>
-      <column datatype='integer' name='[Apps reliability]' role='measure' type='quantitative' />
       <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
       <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
-      <column datatype='integer' name='[Difficult find alternatives]' role='measure' type='quantitative' />
-      <column datatype='integer' name='[Difficult find best recipes]' role='measure' type='quantitative' />
-      <column datatype='integer' name='[Difficult find restaurants]' role='measure' type='quantitative' />
-      <column datatype='integer' name='[Difficult to live with restrictions]' role='measure' type='quantitative' />
-      <column datatype='integer' name='[Difficulty finding recipes]' role='measure' type='quantitative' />
-      <column datatype='integer' name='[Insatisfaction with apps]' role='measure' type='quantitative' />
       <_.fcp.ObjectModelTableType.true...column caption='Hoja1' datatype='table' name='[__tableau_internal_object_id__].[Hoja1_C045755ECBC147ABA89DB33E62014FE7]' role='measure' type='quantitative' />
       <_.fcp.ObjectModelTableType.true...column caption='Hoja2' datatype='table' name='[__tableau_internal_object_id__].[Hoja2_374E2444E2E540C182D7ED08D62BC0E6]' role='measure' type='quantitative' />
       <column caption='Mail Or Username' datatype='string' name='[mail or username]' role='dimension' type='nominal' />
-      <column-instance column='[Difficult find alternatives]' derivation='Avg' name='[avg:Difficult find alternatives:qk]' pivot='key' type='quantitative' />
-      <column-instance column='[Difficult find best recipes]' derivation='Avg' name='[avg:Difficult find best recipes:qk]' pivot='key' type='quantitative' />
-      <column-instance column='[Difficult find restaurants]' derivation='Avg' name='[avg:Difficult find restaurants:qk]' pivot='key' type='quantitative' />
-      <column-instance column='[Difficult to live with restrictions]' derivation='Avg' name='[avg:Difficult to live with restrictions:qk]' pivot='key' type='quantitative' />
-      <column-instance column='[Difficulty finding recipes]' derivation='Avg' name='[avg:Difficulty finding recipes:qk]' pivot='key' type='quantitative' />
       <column-instance column='[mail or username]' derivation='Count' name='[cnt:mail or username:qk]' pivot='key' type='quantitative' />
-      <column-instance column='[Apps reliability]' derivation='None' name='[none:Apps reliability:qk]' pivot='key' type='quantitative' />
-      <column-instance column='[Insatisfaction with apps]' derivation='None' name='[none:Insatisfaction with apps:qk]' pivot='key' type='quantitative' />
-      <column-instance column='[Difficult find alternatives]' derivation='Sum' name='[sum:Difficult find alternatives:qk]' pivot='key' type='quantitative' />
-      <column-instance column='[Difficult find best recipes]' derivation='Sum' name='[sum:Difficult find best recipes:qk]' pivot='key' type='quantitative' />
-      <column-instance column='[Difficult find restaurants]' derivation='Sum' name='[sum:Difficult find restaurants:qk]' pivot='key' type='quantitative' />
-      <column-instance column='[Difficult to live with restrictions]' derivation='Sum' name='[sum:Difficult to live with restrictions:qk]' pivot='key' type='quantitative' />
-      <column-instance column='[Difficulty finding recipes]' derivation='Sum' name='[sum:Difficulty finding recipes:qk]' pivot='key' type='quantitative' />
-      <group hidden='true' name='[Exclusiones (Apps reliability,Insatisfaction with apps)]' name-style='unqualified' user:auto-column='exclude'>
-        <groupfilter function='crossjoin'>
-          <groupfilter function='level-members' level='[none:Apps reliability:qk]' />
-          <groupfilter function='level-members' level='[none:Insatisfaction with apps:qk]' />
-        </groupfilter>
-      </group>
       <drill-paths>
         <drill-path name='Country, City'>
           <field>[Country]</field>
@@ -1155,11 +1321,11 @@
           </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0veb3nk044h4d21bo44yc1von5ai' name='Hoja1' table='[Hoja1$]' type='table'>
-          <columns gridOrigin='A1:AP89:no:A1:AP89:1' header='yes' lost='0' outcome='1' processed='2259'>
+          <columns gridOrigin='A1:AQ98:no:A1:AQ98:1' header='yes' lost='0' outcome='1' processed='2462'>
             <column datatype='datetime' name='Timestamp' ordinal='0' />
-            <column datatype='string' name='mail or username' ordinal='1' />
+            <column datatype='real' name='username' ordinal='1' />
             <column datatype='string' name='First time answering?' ordinal='2' />
-            <column datatype='string' name='Full Name' ordinal='3' />
+            <column datatype='real' name='full name' ordinal='3' />
             <column datatype='integer' name='Age' ordinal='4' />
             <column datatype='string' name='Genre' ordinal='5' />
             <column datatype='string' name='Device' ordinal='6' />
@@ -1197,15 +1363,16 @@
             <column datatype='string' name='Food / Restrictions suggestions' ordinal='38' />
             <column datatype='string' name='Additional comments' ordinal='39' />
             <column datatype='string' name='Country' ordinal='40' />
-            <column datatype='string' name='City' ordinal='41' />
+            <column datatype='string' name='F42' ordinal='41' />
+            <column datatype='string' name='F43' ordinal='42' />
           </columns>
         </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
         <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0veb3nk044h4d21bo44yc1von5ai' name='Hoja1' table='[Hoja1$]' type='table'>
-          <columns gridOrigin='A1:AP89:no:A1:AP89:1' header='yes' lost='0' outcome='1' processed='2259'>
+          <columns gridOrigin='A1:AQ98:no:A1:AQ98:1' header='yes' lost='0' outcome='1' processed='2462'>
             <column datatype='datetime' name='Timestamp' ordinal='0' />
-            <column datatype='string' name='mail or username' ordinal='1' />
+            <column datatype='real' name='username' ordinal='1' />
             <column datatype='string' name='First time answering?' ordinal='2' />
-            <column datatype='string' name='Full Name' ordinal='3' />
+            <column datatype='real' name='full name' ordinal='3' />
             <column datatype='integer' name='Age' ordinal='4' />
             <column datatype='string' name='Genre' ordinal='5' />
             <column datatype='string' name='Device' ordinal='6' />
@@ -1243,7 +1410,8 @@
             <column datatype='string' name='Food / Restrictions suggestions' ordinal='38' />
             <column datatype='string' name='Additional comments' ordinal='39' />
             <column datatype='string' name='Country' ordinal='40' />
-            <column datatype='string' name='City' ordinal='41' />
+            <column datatype='string' name='F42' ordinal='41' />
+            <column datatype='string' name='F43' ordinal='42' />
           </columns>
         </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
         <metadata-records>
@@ -1255,11 +1423,11 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <attributes>
-              <attribute datatype='integer' name='context'>9</attribute>
-              <attribute datatype='string' name='gridOrigin'>&quot;A1:AP89:no:A1:AP89:1&quot;</attribute>
+              <attribute datatype='integer' name='context'>11</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AQ98:no:A1:AQ98:1&quot;</attribute>
               <attribute datatype='integer' name='lost'>0</attribute>
               <attribute datatype='integer' name='outcome'>1</attribute>
-              <attribute datatype='integer' name='processed'>2259</attribute>
+              <attribute datatype='integer' name='processed'>2462</attribute>
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
@@ -1278,18 +1446,18 @@
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>mail or username</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[mail or username]</local-name>
+            <remote-name>username</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[username]</local-name>
             <parent-name>[Hoja1]</parent-name>
-            <remote-alias>mail or username</remote-alias>
+            <remote-alias>username</remote-alias>
             <ordinal>1</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
+            <hidden>true</hidden>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <collation flag='1' name='LES_RES_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
@@ -1310,18 +1478,18 @@
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>Full Name</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Full Name]</local-name>
+            <remote-name>full name</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[full name]</local-name>
             <parent-name>[Hoja1]</parent-name>
-            <remote-alias>Full Name</remote-alias>
+            <remote-alias>full name</remote-alias>
             <ordinal>3</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
+            <hidden>true</hidden>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <collation flag='1' name='LES_RES_S2' />
             <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
             </attributes>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
@@ -1890,12 +2058,28 @@
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>City</remote-name>
+            <remote-name>F42</remote-name>
             <remote-type>130</remote-type>
-            <local-name>[City]</local-name>
+            <local-name>[F42]</local-name>
             <parent-name>[Hoja1]</parent-name>
-            <remote-alias>City</remote-alias>
+            <remote-alias>F42</remote-alias>
             <ordinal>41</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja1_7387D8A1E0884E69A6A85022560A08F2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F43</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F43]</local-name>
+            <parent-name>[Hoja1]</parent-name>
+            <remote-alias>F43</remote-alias>
+            <ordinal>42</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
@@ -1908,14 +2092,7 @@
         </metadata-records>
       </connection>
       <aliases enabled='yes' />
-      <column aggregation='None' caption='Age1 (agrupación) 2' datatype='integer' name='[Age1 (agrupación) 2]' role='dimension' type='ordinal'>
-        <calculation class='bin' decimals='0' formula='[Age]' peg='0' size='5' />
-      </column>
-      <column aggregation='None' caption='Age1 (agrupación)' datatype='integer' name='[Age1 (agrupación)]' role='dimension' type='ordinal'>
-        <calculation class='bin' decimals='-2' formula='[Age]' peg='0' size='3.72' />
-      </column>
       <column caption='Age1' datatype='integer' name='[Age]' role='dimension' type='ordinal' />
-      <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
       <column caption='Country1' datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
         <semantic-values semantic-role='[Country].[Name]'>
           <semantic-value key='&quot;EEUU&quot;' value='&quot;Estados Unidos&quot;' />
@@ -1924,21 +2101,11 @@
       </column>
       <column caption='Discover EIP1' datatype='string' name='[Discover EIP]' role='dimension' type='nominal' />
       <column caption='Genre1' datatype='string' name='[Genre]' role='dimension' type='nominal' />
-      <column caption='Restrictions - División 1' datatype='string' name='[Restrictions - División 1]' role='dimension' type='nominal' user:SplitFieldIndex='1' user:SplitFieldOrigin='[federated.1rrq9vn0w56iti17620ee0uh52zy].[Restrictions]'>
-        <calculation class='tableau' formula='TRIM( SPLIT( [Restrictions], &quot;,&quot;, 1 ) )' />
-      </column>
-      <column caption='Restrictions - División 2' datatype='string' name='[Restrictions - División 2]' role='dimension' type='nominal' user:SplitFieldIndex='2' user:SplitFieldOrigin='[federated.1rrq9vn0w56iti17620ee0uh52zy].[Restrictions]'>
-        <calculation class='tableau' formula='TRIM( SPLIT( [Restrictions], &quot;,&quot;, 2 ) )' />
-      </column>
-      <column caption='Restrictions - División 3' datatype='string' name='[Restrictions - División 3]' role='dimension' type='nominal' user:SplitFieldIndex='3' user:SplitFieldOrigin='[federated.1rrq9vn0w56iti17620ee0uh52zy].[Restrictions]'>
-        <calculation class='tableau' formula='TRIM( SPLIT( [Restrictions], &quot;,&quot;, 3 ) )' />
-      </column>
-      <column caption='Restrictions - División 4' datatype='string' name='[Restrictions - División 4]' role='dimension' type='nominal' user:SplitFieldIndex='4' user:SplitFieldOrigin='[federated.1rrq9vn0w56iti17620ee0uh52zy].[Restrictions]'>
-        <calculation class='tableau' formula='TRIM( SPLIT( [Restrictions], &quot;,&quot;, 4 ) )' />
-      </column>
       <_.fcp.ObjectModelTableType.true...column caption='Hoja1' datatype='table' name='[__tableau_internal_object_id__].[Hoja1_7387D8A1E0884E69A6A85022560A08F2]' role='measure' type='quantitative' />
+      <column datatype='real' hidden='true' name='[full name]' role='dimension' type='ordinal' />
       <column caption='Mail Or Username' datatype='string' name='[mail or username]' role='dimension' type='nominal' />
-      <column-instance column='[Age]' derivation='None' name='[none:Age:ok]' pivot='key' type='ordinal' />
+      <column datatype='real' hidden='true' name='[username]' role='dimension' type='ordinal' />
+      <column-instance column='[Age]' derivation='None' name='[none:Age:nk]' pivot='key' type='ordinal' />
       <column-instance column='[Discover EIP]' derivation='None' name='[none:Discover EIP:nk]' pivot='key' type='nominal' />
       <column-instance column='[Genre]' derivation='None' name='[none:Genre:nk]' pivot='key' type='nominal' />
       <group caption='Acción (Country1)' hidden='true' name='[Action (Country1)]' name-style='unqualified' user:auto-column='sheet_link'>
@@ -1953,13 +2120,13 @@
       </group>
       <group hidden='true' name='[Exclusiones (Age,Genre)]' name-style='unqualified' user:auto-column='exclude'>
         <groupfilter function='crossjoin'>
-          <groupfilter function='level-members' level='[none:Age:ok]' />
+          <groupfilter function='level-members' level='[none:Age:nk]' />
           <groupfilter function='level-members' level='[none:Genre:nk]' />
         </groupfilter>
       </group>
       <group hidden='true' name='[Exclusiones (Age1,Genre1)]' name-style='unqualified' user:auto-column='exclude'>
         <groupfilter function='crossjoin'>
-          <groupfilter function='level-members' level='[none:Age:ok]' />
+          <groupfilter function='level-members' level='[none:Age:nk]' />
           <groupfilter function='level-members' level='[none:Genre:nk]' />
         </groupfilter>
       </group>
@@ -2004,7 +2171,7 @@
             <map to='#4e79a7'>
               <bucket>&quot;F&quot;</bucket>
             </map>
-            <map to='#76b7b2'>
+            <map to='#f28e2b'>
               <bucket>&quot;M&quot;</bucket>
             </map>
           </encoding>
@@ -2071,11 +2238,11 @@
           <object caption='Hoja1' id='Hoja1_7387D8A1E0884E69A6A85022560A08F2'>
             <properties context=''>
               <relation connection='excel-direct.0veb3nk044h4d21bo44yc1von5ai' name='Hoja1' table='[Hoja1$]' type='table'>
-                <columns gridOrigin='A1:AP89:no:A1:AP89:1' header='yes' lost='0' outcome='1' processed='2259'>
+                <columns gridOrigin='A1:AQ98:no:A1:AQ98:1' header='yes' lost='0' outcome='1' processed='2462'>
                   <column datatype='datetime' name='Timestamp' ordinal='0' />
-                  <column datatype='string' name='mail or username' ordinal='1' />
+                  <column datatype='real' name='username' ordinal='1' />
                   <column datatype='string' name='First time answering?' ordinal='2' />
-                  <column datatype='string' name='Full Name' ordinal='3' />
+                  <column datatype='real' name='full name' ordinal='3' />
                   <column datatype='integer' name='Age' ordinal='4' />
                   <column datatype='string' name='Genre' ordinal='5' />
                   <column datatype='string' name='Device' ordinal='6' />
@@ -2113,212 +2280,8 @@
                   <column datatype='string' name='Food / Restrictions suggestions' ordinal='38' />
                   <column datatype='string' name='Additional comments' ordinal='39' />
                   <column datatype='string' name='Country' ordinal='40' />
-                  <column datatype='string' name='City' ordinal='41' />
-                </columns>
-              </relation>
-            </properties>
-          </object>
-        </objects>
-      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
-    </datasource>
-    <datasource caption='Hoja2 (BBDD Tableau adiciona)' inline='true' name='federated.0myvqlr0lvpskm1324tu21h6p927' version='18.1'>
-      <connection class='federated'>
-        <named-connections>
-          <named-connection caption='BBDD Tableau adiciona' name='excel-direct.0lyoiqt0ttwxze1fgsaed1r1mh9m'>
-            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/rebep/OneDrive/Desktop/TFM/Anexos/Documentos/BBDD Tableau adiciona.xlsx' interpretationMode='0' password='' server='' validate='no' />
-          </named-connection>
-        </named-connections>
-        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0lyoiqt0ttwxze1fgsaed1r1mh9m' name='Hoja2' table='[Hoja2$]' type='table'>
-          <columns gridOrigin='A1:H117:no:A1:H117:0' header='yes' outcome='2'>
-            <column datatype='string' name='Timestamp' ordinal='0' />
-            <column datatype='string' name='mail or username' ordinal='1' />
-            <column datatype='string' name='Restrictions' ordinal='2' />
-            <column datatype='string' name='Columna1' ordinal='3' />
-            <column datatype='string' name='Columna2' ordinal='4' />
-            <column datatype='string' name='Columna3' ordinal='5' />
-            <column datatype='string' name='Columna4' ordinal='6' />
-            <column datatype='string' name='Columna11' ordinal='7' />
-          </columns>
-        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
-        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0lyoiqt0ttwxze1fgsaed1r1mh9m' name='Hoja2' table='[Hoja2$]' type='table'>
-          <columns gridOrigin='A1:H117:no:A1:H117:0' header='yes' outcome='2'>
-            <column datatype='string' name='Timestamp' ordinal='0' />
-            <column datatype='string' name='mail or username' ordinal='1' />
-            <column datatype='string' name='Restrictions' ordinal='2' />
-            <column datatype='string' name='Columna1' ordinal='3' />
-            <column datatype='string' name='Columna2' ordinal='4' />
-            <column datatype='string' name='Columna3' ordinal='5' />
-            <column datatype='string' name='Columna4' ordinal='6' />
-            <column datatype='string' name='Columna11' ordinal='7' />
-          </columns>
-        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
-        <metadata-records>
-          <metadata-record class='capability'>
-            <remote-name />
-            <remote-type>0</remote-type>
-            <parent-name>[Hoja2]</parent-name>
-            <remote-alias />
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='integer' name='context'>0</attribute>
-              <attribute datatype='string' name='gridOrigin'>&quot;A1:H117:no:A1:H117:0&quot;</attribute>
-              <attribute datatype='boolean' name='header'>true</attribute>
-              <attribute datatype='integer' name='outcome'>2</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Timestamp</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Timestamp]</local-name>
-            <parent-name>[Hoja2]</parent-name>
-            <remote-alias>Timestamp</remote-alias>
-            <ordinal>0</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='1' name='LES_RES_S2' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
-            </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja2_0A69F34062654FECAEA8E90140EC86B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>mail or username</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[mail or username]</local-name>
-            <parent-name>[Hoja2]</parent-name>
-            <remote-alias>mail or username</remote-alias>
-            <ordinal>1</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='1' name='LES_RES_S2' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
-            </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja2_0A69F34062654FECAEA8E90140EC86B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Restrictions</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Restrictions]</local-name>
-            <parent-name>[Hoja2]</parent-name>
-            <remote-alias>Restrictions</remote-alias>
-            <ordinal>2</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='1' name='LES_RES_S2' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
-            </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja2_0A69F34062654FECAEA8E90140EC86B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Columna1</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Columna1]</local-name>
-            <parent-name>[Hoja2]</parent-name>
-            <remote-alias>Columna1</remote-alias>
-            <ordinal>3</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='1' name='LES_RES_S2' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
-            </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja2_0A69F34062654FECAEA8E90140EC86B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Columna2</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Columna2]</local-name>
-            <parent-name>[Hoja2]</parent-name>
-            <remote-alias>Columna2</remote-alias>
-            <ordinal>4</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='1' name='LES_RES_S2' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
-            </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja2_0A69F34062654FECAEA8E90140EC86B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Columna3</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Columna3]</local-name>
-            <parent-name>[Hoja2]</parent-name>
-            <remote-alias>Columna3</remote-alias>
-            <ordinal>5</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='1' name='LES_RES_S2' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
-            </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja2_0A69F34062654FECAEA8E90140EC86B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Columna4</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Columna4]</local-name>
-            <parent-name>[Hoja2]</parent-name>
-            <remote-alias>Columna4</remote-alias>
-            <ordinal>6</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='1' name='LES_RES_S2' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
-            </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja2_0A69F34062654FECAEA8E90140EC86B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Columna11</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Columna11]</local-name>
-            <parent-name>[Hoja2]</parent-name>
-            <remote-alias>Columna11</remote-alias>
-            <ordinal>7</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='1' name='LES_RES_S2' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
-            </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hoja2_0A69F34062654FECAEA8E90140EC86B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-        </metadata-records>
-      </connection>
-      <aliases enabled='yes' />
-      <_.fcp.ObjectModelTableType.true...column caption='Hoja2' datatype='table' name='[__tableau_internal_object_id__].[Hoja2_0A69F34062654FECAEA8E90140EC86B2]' role='measure' type='quantitative' />
-      <column caption='Mail Or Username' datatype='string' name='[mail or username]' role='dimension' type='nominal' />
-      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
-      <semantic-values>
-        <semantic-value key='[Country].[Name]' value='&quot;España&quot;' />
-      </semantic-values>
-      <date-options start-of-week='monday' />
-      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
-        <objects>
-          <object caption='Hoja2' id='Hoja2_0A69F34062654FECAEA8E90140EC86B2'>
-            <properties context=''>
-              <relation connection='excel-direct.0lyoiqt0ttwxze1fgsaed1r1mh9m' name='Hoja2' table='[Hoja2$]' type='table'>
-                <columns gridOrigin='A1:H117:no:A1:H117:0' header='yes' outcome='2'>
-                  <column datatype='string' name='Timestamp' ordinal='0' />
-                  <column datatype='string' name='mail or username' ordinal='1' />
-                  <column datatype='string' name='Restrictions' ordinal='2' />
-                  <column datatype='string' name='Columna1' ordinal='3' />
-                  <column datatype='string' name='Columna2' ordinal='4' />
-                  <column datatype='string' name='Columna3' ordinal='5' />
-                  <column datatype='string' name='Columna4' ordinal='6' />
-                  <column datatype='string' name='Columna11' ordinal='7' />
+                  <column datatype='string' name='F42' ordinal='41' />
+                  <column datatype='string' name='F43' ordinal='42' />
                 </columns>
               </relation>
             </properties>
@@ -2333,740 +2296,15 @@
   <actions>
     <action caption='Filtro 1 (generado)' name='[Action1_7F82D05401E84DF7AF5902CAE174B931]'>
       <activation auto-clear='true' type='on-select' />
-      <source dashboard='avg_user' type='sheet' worksheet='disc' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Hoja 3' />
       <command command='tsc:tsl-filter'>
         <param name='special-fields' value='all' />
-        <param name='target' value='avg_user' />
+        <param name='target' value='Dashboard 1' />
       </command>
     </action>
   </actions>
   <worksheets>
-    <worksheet name='Hoja 12'>
-      <table>
-        <view>
-          <datasources />
-          <aggregation value='true' />
-        </view>
-        <style />
-        <panes>
-          <pane selection-relaxation-option='selection-relaxation-allow'>
-            <view>
-              <breakdown value='auto' />
-            </view>
-            <mark class='Automatic' />
-          </pane>
-        </panes>
-        <rows />
-        <cols />
-      </table>
-      <simple-id uuid='{E7AA3D21-86CD-4018-9562-C0EF66F2F7C2}' />
-    </worksheet>
-    <worksheet name='age'>
-      <layout-options>
-        <title>
-          <formatted-text />
-        </title>
-      </layout-options>
-      <table>
-        <view>
-          <datasources>
-            <datasource caption='Sheet1 (Base de datos Tableau)' name='federated.1rrq9vn0w56iti17620ee0uh52zy' />
-          </datasources>
-          <datasource-dependencies datasource='federated.1rrq9vn0w56iti17620ee0uh52zy'>
-            <column aggregation='None' caption='Age1 (agrupación) 2' datatype='integer' name='[Age1 (agrupación) 2]' role='dimension' type='ordinal'>
-              <calculation class='bin' decimals='0' formula='[Age]' peg='0' size='5' />
-            </column>
-            <column aggregation='None' caption='Age1 (agrupación)' datatype='integer' name='[Age1 (agrupación)]' role='dimension' type='ordinal'>
-              <calculation class='bin' decimals='-2' formula='[Age]' peg='0' size='3.72' />
-            </column>
-            <column caption='Age1' datatype='integer' name='[Age]' role='dimension' type='ordinal' />
-            <column caption='Discover EIP1' datatype='string' name='[Discover EIP]' role='dimension' type='nominal' />
-            <column caption='Genre1' datatype='string' name='[Genre]' role='dimension' type='nominal' />
-            <column-instance column='[mail or username]' derivation='Count' name='[cnt:mail or username:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Age]' derivation='CountD' name='[ctd:Age:qk]' pivot='key' type='quantitative' />
-            <column caption='Mail Or Username' datatype='string' name='[mail or username]' role='dimension' type='nominal' />
-            <column-instance column='[Age1 (agrupación) 2]' derivation='None' name='[none:Age1 (agrupación) 2:ok]' pivot='key' type='ordinal' />
-            <column-instance column='[Age1 (agrupación)]' derivation='None' name='[none:Age1 (agrupación):ok]' pivot='key' type='ordinal' />
-            <column-instance column='[Age]' derivation='None' name='[none:Age:ok]' pivot='key' type='ordinal' />
-            <column-instance column='[Genre]' derivation='None' name='[none:Genre:nk]' pivot='key' type='nominal' />
-          </datasource-dependencies>
-          <filter class='categorical' column='[federated.1rrq9vn0w56iti17620ee0uh52zy].[Action (Discover EIP1)]'>
-            <groupfilter function='level-members' level='[Discover EIP]' user:ui-action-filter='[Action1_7F82D05401E84DF7AF5902CAE174B931]' user:ui-enumeration='all' user:ui-marker='enumerate' />
-          </filter>
-          <filter class='categorical' column='[federated.1rrq9vn0w56iti17620ee0uh52zy].[Exclusiones (Age1,Genre1)]'>
-            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
-              <groupfilter function='crossjoin'>
-                <groupfilter function='level-members' level='[none:Age:ok]' />
-                <groupfilter function='level-members' level='[none:Genre:nk]' />
-              </groupfilter>
-              <groupfilter function='crossjoin'>
-                <groupfilter function='member' level='[none:Age:ok]' member='%null%' />
-                <groupfilter function='member' level='[none:Genre:nk]' member='%null%' />
-              </groupfilter>
-            </groupfilter>
-          </filter>
-          <filter class='quantitative' column='[federated.1rrq9vn0w56iti17620ee0uh52zy].[ctd:Age:qk]' included-values='non-null' />
-          <filter class='categorical' column='[federated.1rrq9vn0w56iti17620ee0uh52zy].[none:Age1 (agrupación):ok]'>
-            <groupfilter function='level-members' level='[none:Age1 (agrupación):ok]' />
-          </filter>
-          <slices>
-            <column>[federated.1rrq9vn0w56iti17620ee0uh52zy].[ctd:Age:qk]</column>
-            <column>[federated.1rrq9vn0w56iti17620ee0uh52zy].[Exclusiones (Age1,Genre1)]</column>
-            <column>[federated.1rrq9vn0w56iti17620ee0uh52zy].[none:Age1 (agrupación):ok]</column>
-            <column>[federated.1rrq9vn0w56iti17620ee0uh52zy].[Action (Discover EIP1)]</column>
-          </slices>
-          <aggregation value='true' />
-        </view>
-        <style>
-          <style-rule element='axis'>
-            <format attr='title' class='0' field='[federated.1rrq9vn0w56iti17620ee0uh52zy].[cnt:mail or username:qk]' scope='rows' value='Users by Age grouping (from)' />
-          </style-rule>
-          <style-rule element='worksheet'>
-            <format attr='display-field-labels' scope='cols' value='false' />
-          </style-rule>
-        </style>
-        <panes>
-          <pane selection-relaxation-option='selection-relaxation-allow'>
-            <view>
-              <breakdown value='auto' />
-            </view>
-            <mark class='Automatic' />
-            <encodings>
-              <color column='[federated.1rrq9vn0w56iti17620ee0uh52zy].[none:Genre:nk]' />
-            </encodings>
-            <style>
-              <style-rule element='mark'>
-                <format attr='mark-labels-cull' value='true' />
-                <format attr='mark-labels-show' value='false' />
-              </style-rule>
-            </style>
-          </pane>
-        </panes>
-        <rows>[federated.1rrq9vn0w56iti17620ee0uh52zy].[cnt:mail or username:qk]</rows>
-        <cols>[federated.1rrq9vn0w56iti17620ee0uh52zy].[none:Age1 (agrupación) 2:ok]</cols>
-        <show-full-range>
-          <column>[federated.1rrq9vn0w56iti17620ee0uh52zy].[Age1 (agrupación) 2]</column>
-          <column>[federated.1rrq9vn0w56iti17620ee0uh52zy].[Age1 (agrupación)]</column>
-        </show-full-range>
-      </table>
-      <simple-id uuid='{8589211C-4321-40F2-AA7B-BE6CE9257BE0}' />
-    </worksheet>
-    <worksheet name='apps'>
-      <layout-options>
-        <title>
-          <formatted-text>
-            <run>Apps</run>
-          </formatted-text>
-        </title>
-      </layout-options>
-      <table>
-        <view>
-          <datasources>
-            <datasource caption='Hoja1 (Base de datos Tableau)' name='federated.1wsl0y01f99sti182u11g1xj21qi' />
-          </datasources>
-          <datasource-dependencies datasource='federated.1wsl0y01f99sti182u11g1xj21qi'>
-            <column datatype='integer' name='[Apps reliability]' role='measure' type='quantitative' />
-            <column datatype='integer' name='[Insatisfaction with apps]' role='measure' type='quantitative' />
-            <column-instance column='[mail or username]' derivation='Count' name='[cnt:mail or username:qk]' pivot='key' type='quantitative' />
-            <column caption='Mail Or Username' datatype='string' name='[mail or username]' role='dimension' type='nominal' />
-            <column-instance column='[Apps reliability]' derivation='None' name='[none:Apps reliability:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Insatisfaction with apps]' derivation='None' name='[none:Insatisfaction with apps:qk]' pivot='key' type='quantitative' />
-          </datasource-dependencies>
-          <filter class='categorical' column='[federated.1wsl0y01f99sti182u11g1xj21qi].[Exclusiones (Apps reliability,Insatisfaction with apps)]'>
-            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
-              <groupfilter function='crossjoin'>
-                <groupfilter function='level-members' level='[none:Apps reliability:qk]' />
-                <groupfilter function='level-members' level='[none:Insatisfaction with apps:qk]' />
-              </groupfilter>
-              <groupfilter function='crossjoin'>
-                <groupfilter function='member' level='[none:Apps reliability:qk]' member='%null%' />
-                <groupfilter function='member' level='[none:Insatisfaction with apps:qk]' member='%null%' />
-              </groupfilter>
-            </groupfilter>
-          </filter>
-          <slices>
-            <column>[federated.1wsl0y01f99sti182u11g1xj21qi].[Exclusiones (Apps reliability,Insatisfaction with apps)]</column>
-          </slices>
-          <aggregation value='true' />
-        </view>
-        <style />
-        <panes>
-          <pane selection-relaxation-option='selection-relaxation-allow'>
-            <view>
-              <breakdown value='on' />
-            </view>
-            <mark class='Automatic' />
-            <encodings>
-              <size column='[federated.1wsl0y01f99sti182u11g1xj21qi].[cnt:mail or username:qk]' />
-              <color column='[federated.1wsl0y01f99sti182u11g1xj21qi].[cnt:mail or username:qk]' />
-              <text column='[federated.1wsl0y01f99sti182u11g1xj21qi].[none:Apps reliability:qk]' />
-              <text column='[federated.1wsl0y01f99sti182u11g1xj21qi].[none:Insatisfaction with apps:qk]' />
-            </encodings>
-            <style>
-              <style-rule element='mark'>
-                <format attr='mark-labels-show' value='true' />
-                <format attr='mark-labels-cull' value='true' />
-                <format attr='mark-labels-line-first' value='true' />
-                <format attr='mark-labels-line-last' value='true' />
-                <format attr='mark-labels-range-min' value='true' />
-                <format attr='mark-labels-range-max' value='true' />
-                <format attr='mark-labels-mode' value='all' />
-                <format attr='mark-labels-range-scope' value='pane' />
-                <format attr='mark-labels-range-field' value='' />
-              </style-rule>
-            </style>
-          </pane>
-        </panes>
-        <rows />
-        <cols />
-      </table>
-      <simple-id uuid='{3790BA49-15D1-4B73-84AB-B296315B3435}' />
-    </worksheet>
-    <worksheet name='c_easy'>
-      <layout-options>
-        <title>
-          <formatted-text />
-        </title>
-      </layout-options>
-      <table>
-        <view>
-          <datasources>
-            <datasource caption='Hoja1 (Base de datos Tableau)' name='federated.1wsl0y01f99sti182u11g1xj21qi' />
-          </datasources>
-          <datasource-dependencies datasource='federated.1wsl0y01f99sti182u11g1xj21qi'>
-            <column datatype='integer' name='[Easy to understand]' role='measure' type='quantitative' />
-            <column datatype='integer' name='[Easy to use]' role='measure' type='quantitative' />
-            <column-instance column='[Easy to understand]' derivation='Avg' name='[avg:Easy to understand:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Easy to use]' derivation='Avg' name='[avg:Easy to use:qk]' pivot='key' type='quantitative' />
-            <column caption='Mail Or Username' datatype='string' name='[mail or username]' role='dimension' type='nominal' />
-            <column-instance column='[mail or username]' derivation='None' name='[none:mail or username:nk]' pivot='key' type='nominal' />
-          </datasource-dependencies>
-          <filter class='quantitative' column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Easy to understand:qk]' included-values='in-range'>
-            <min>1.0</min>
-            <max>5.0</max>
-          </filter>
-          <filter class='quantitative' column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Easy to use:qk]' included-values='non-null' />
-          <slices>
-            <column>[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Easy to understand:qk]</column>
-            <column>[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Easy to use:qk]</column>
-          </slices>
-          <aggregation value='true' />
-        </view>
-        <style />
-        <panes>
-          <pane selection-relaxation-option='selection-relaxation-allow'>
-            <view>
-              <breakdown value='auto' />
-            </view>
-            <mark class='Circle' />
-            <encodings>
-              <lod column='[federated.1wsl0y01f99sti182u11g1xj21qi].[none:mail or username:nk]' />
-            </encodings>
-            <reference-line axis-column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Easy to understand:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Easy to understand:qk]' z-order='1' />
-            <reference-line axis-column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Easy to use:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline1' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Easy to use:qk]' z-order='2' />
-            <style>
-              <style-rule element='mark'>
-                <format attr='size' value='0.25' />
-              </style-rule>
-            </style>
-          </pane>
-          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Easy to understand:qk]'>
-            <view>
-              <breakdown value='auto' />
-            </view>
-            <mark class='Circle' />
-            <encodings>
-              <lod column='[federated.1wsl0y01f99sti182u11g1xj21qi].[none:mail or username:nk]' />
-            </encodings>
-            <style>
-              <style-rule element='mark'>
-                <format attr='size' value='0.25' />
-              </style-rule>
-            </style>
-          </pane>
-          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Easy to use:qk]'>
-            <view>
-              <breakdown value='auto' />
-            </view>
-            <mark class='Circle' />
-            <encodings>
-              <lod column='[federated.1wsl0y01f99sti182u11g1xj21qi].[none:mail or username:nk]' />
-            </encodings>
-            <style>
-              <style-rule element='mark'>
-                <format attr='size' value='0.25' />
-              </style-rule>
-            </style>
-          </pane>
-        </panes>
-        <rows>([federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Easy to understand:qk] + [federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Easy to use:qk])</rows>
-        <cols />
-      </table>
-      <simple-id uuid='{5ED8202A-BB3F-4701-B378-DC4D120F937B}' />
-    </worksheet>
-    <worksheet name='c_oth'>
-      <layout-options>
-        <title>
-          <formatted-text />
-        </title>
-      </layout-options>
-      <table>
-        <view>
-          <datasources>
-            <datasource caption='Hoja1 (Base de datos Tableau)' name='federated.1wsl0y01f99sti182u11g1xj21qi' />
-          </datasources>
-          <datasource-dependencies datasource='federated.1wsl0y01f99sti182u11g1xj21qi'>
-            <column datatype='integer' name='[Design (UX / UI)]' role='measure' type='quantitative' />
-            <column datatype='integer' name='[Process Speed]' role='measure' type='quantitative' />
-            <column-instance column='[Design (UX / UI)]' derivation='Avg' name='[avg:Design (UX / UI):qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Process Speed]' derivation='Avg' name='[avg:Process Speed:qk]' pivot='key' type='quantitative' />
-            <column caption='Mail Or Username' datatype='string' name='[mail or username]' role='dimension' type='nominal' />
-            <column-instance column='[mail or username]' derivation='None' name='[none:mail or username:nk]' pivot='key' type='nominal' />
-          </datasource-dependencies>
-          <filter class='quantitative' column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Design (UX / UI):qk]' included-values='non-null' />
-          <filter class='quantitative' column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Process Speed:qk]' included-values='non-null' />
-          <slices>
-            <column>[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Process Speed:qk]</column>
-            <column>[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Design (UX / UI):qk]</column>
-          </slices>
-          <aggregation value='true' />
-        </view>
-        <style />
-        <panes>
-          <pane selection-relaxation-option='selection-relaxation-allow'>
-            <view>
-              <breakdown value='auto' />
-            </view>
-            <mark class='Circle' />
-            <encodings>
-              <lod column='[federated.1wsl0y01f99sti182u11g1xj21qi].[none:mail or username:nk]' />
-            </encodings>
-            <reference-line axis-column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Design (UX / UI):qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Design (UX / UI):qk]' z-order='1' />
-            <reference-line axis-column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Process Speed:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline1' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Process Speed:qk]' z-order='2' />
-            <style>
-              <style-rule element='mark'>
-                <format attr='size' value='0.25' />
-              </style-rule>
-            </style>
-          </pane>
-          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Design (UX / UI):qk]'>
-            <view>
-              <breakdown value='auto' />
-            </view>
-            <mark class='Circle' />
-            <encodings>
-              <lod column='[federated.1wsl0y01f99sti182u11g1xj21qi].[none:mail or username:nk]' />
-            </encodings>
-            <style>
-              <style-rule element='mark'>
-                <format attr='size' value='0.25' />
-              </style-rule>
-            </style>
-          </pane>
-          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Process Speed:qk]'>
-            <view>
-              <breakdown value='auto' />
-            </view>
-            <mark class='Circle' />
-            <encodings>
-              <lod column='[federated.1wsl0y01f99sti182u11g1xj21qi].[none:mail or username:nk]' />
-            </encodings>
-            <style>
-              <style-rule element='mark'>
-                <format attr='size' value='0.25' />
-              </style-rule>
-            </style>
-          </pane>
-        </panes>
-        <rows>([federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Design (UX / UI):qk] + [federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Process Speed:qk])</rows>
-        <cols />
-      </table>
-      <simple-id uuid='{7EB96736-590B-45C6-B946-5F53212CFFA4}' />
-    </worksheet>
-    <worksheet name='c_var'>
-      <layout-options>
-        <title>
-          <formatted-text />
-        </title>
-      </layout-options>
-      <table>
-        <view>
-          <datasources>
-            <datasource caption='Hoja1 (Base de datos Tableau)' name='federated.1wsl0y01f99sti182u11g1xj21qi' />
-          </datasources>
-          <datasource-dependencies datasource='federated.1wsl0y01f99sti182u11g1xj21qi'>
-            <column datatype='integer' name='[Variety of food]' role='measure' type='quantitative' />
-            <column datatype='integer' name='[Variety of restrictions]' role='measure' type='quantitative' />
-            <column-instance column='[Variety of food]' derivation='Avg' name='[avg:Variety of food:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Variety of restrictions]' derivation='Avg' name='[avg:Variety of restrictions:qk]' pivot='key' type='quantitative' />
-            <column caption='Mail Or Username' datatype='string' name='[mail or username]' role='dimension' type='nominal' />
-            <column-instance column='[mail or username]' derivation='None' name='[none:mail or username:nk]' pivot='key' type='nominal' />
-          </datasource-dependencies>
-          <filter class='quantitative' column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Variety of food:qk]' included-values='non-null' />
-          <slices>
-            <column>[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Variety of food:qk]</column>
-          </slices>
-          <aggregation value='true' />
-        </view>
-        <style />
-        <panes>
-          <pane selection-relaxation-option='selection-relaxation-allow'>
-            <view>
-              <breakdown value='auto' />
-            </view>
-            <mark class='Circle' />
-            <encodings>
-              <lod column='[federated.1wsl0y01f99sti182u11g1xj21qi].[none:mail or username:nk]' />
-            </encodings>
-            <reference-line axis-column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Variety of food:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Variety of food:qk]' z-order='1' />
-            <reference-line axis-column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Variety of restrictions:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline1' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Variety of restrictions:qk]' z-order='2' />
-            <style>
-              <style-rule element='mark'>
-                <format attr='size' value='0.25' />
-              </style-rule>
-            </style>
-          </pane>
-          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Variety of food:qk]'>
-            <view>
-              <breakdown value='auto' />
-            </view>
-            <mark class='Circle' />
-            <encodings>
-              <lod column='[federated.1wsl0y01f99sti182u11g1xj21qi].[none:mail or username:nk]' />
-            </encodings>
-            <style>
-              <style-rule element='mark'>
-                <format attr='size' value='0.25' />
-              </style-rule>
-            </style>
-          </pane>
-          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Variety of restrictions:qk]'>
-            <view>
-              <breakdown value='auto' />
-            </view>
-            <mark class='Circle' />
-            <encodings>
-              <lod column='[federated.1wsl0y01f99sti182u11g1xj21qi].[none:mail or username:nk]' />
-            </encodings>
-            <style>
-              <style-rule element='mark'>
-                <format attr='size' value='0.25' />
-              </style-rule>
-            </style>
-          </pane>
-        </panes>
-        <rows>([federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Variety of food:qk] + [federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Variety of restrictions:qk])</rows>
-        <cols />
-      </table>
-      <simple-id uuid='{0E899557-A360-400B-B756-379B91707EF1}' />
-    </worksheet>
-    <worksheet name='dif'>
-      <layout-options>
-        <title>
-          <formatted-text>
-            <run>Dificultades </run>
-          </formatted-text>
-        </title>
-      </layout-options>
-      <table>
-        <view>
-          <datasources>
-            <datasource caption='Hoja1 (Base de datos Tableau)' name='federated.1wsl0y01f99sti182u11g1xj21qi' />
-          </datasources>
-          <datasource-dependencies datasource='federated.1wsl0y01f99sti182u11g1xj21qi'>
-            <column datatype='integer' name='[Difficult find alternatives]' role='measure' type='quantitative' />
-            <column datatype='integer' name='[Difficult find best recipes]' role='measure' type='quantitative' />
-            <column datatype='integer' name='[Difficult find restaurants]' role='measure' type='quantitative' />
-            <column datatype='integer' name='[Difficult to live with restrictions]' role='measure' type='quantitative' />
-            <column datatype='integer' name='[Difficulty finding recipes]' role='measure' type='quantitative' />
-            <column-instance column='[Difficult find alternatives]' derivation='Avg' name='[avg:Difficult find alternatives:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Difficult find best recipes]' derivation='Avg' name='[avg:Difficult find best recipes:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Difficult find restaurants]' derivation='Avg' name='[avg:Difficult find restaurants:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Difficult to live with restrictions]' derivation='Avg' name='[avg:Difficult to live with restrictions:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Difficulty finding recipes]' derivation='Avg' name='[avg:Difficulty finding recipes:qk]' pivot='key' type='quantitative' />
-          </datasource-dependencies>
-          <filter class='categorical' column='[federated.1wsl0y01f99sti182u11g1xj21qi].[:Measure Names]'>
-            <groupfilter function='union' user:op='manual'>
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Difficult find best recipes:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Difficult find alternatives:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Difficult find restaurants:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Difficulty finding recipes:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Difficult to live with restrictions:qk]&quot;' />
-            </groupfilter>
-          </filter>
-          <manual-sort column='[federated.1wsl0y01f99sti182u11g1xj21qi].[:Measure Names]' direction='ASC'>
-            <dictionary>
-              <bucket>&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Difficult find best recipes:qk]&quot;</bucket>
-              <bucket>&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Difficult find alternatives:qk]&quot;</bucket>
-              <bucket>&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Difficult find restaurants:qk]&quot;</bucket>
-              <bucket>&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Difficulty finding recipes:qk]&quot;</bucket>
-              <bucket>&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Difficult to live with restrictions:qk]&quot;</bucket>
-            </dictionary>
-          </manual-sort>
-          <slices>
-            <column>[federated.1wsl0y01f99sti182u11g1xj21qi].[:Measure Names]</column>
-          </slices>
-          <aggregation value='true' />
-        </view>
-        <style />
-        <panes>
-          <pane selection-relaxation-option='selection-relaxation-allow'>
-            <view>
-              <breakdown value='auto' />
-            </view>
-            <mark class='Automatic' />
-          </pane>
-        </panes>
-        <rows>[federated.1wsl0y01f99sti182u11g1xj21qi].[:Measure Names]</rows>
-        <cols>[federated.1wsl0y01f99sti182u11g1xj21qi].[Multiple Values]</cols>
-      </table>
-      <simple-id uuid='{4A2096CB-425C-40E2-8BE0-C7DD9D982065}' />
-    </worksheet>
-    <worksheet name='disc'>
-      <layout-options>
-        <title>
-          <formatted-text />
-        </title>
-      </layout-options>
-      <table>
-        <view>
-          <datasources>
-            <datasource caption='Sheet1 (Base de datos Tableau)' name='federated.1rrq9vn0w56iti17620ee0uh52zy' />
-          </datasources>
-          <datasource-dependencies datasource='federated.1rrq9vn0w56iti17620ee0uh52zy'>
-            <column caption='Discover EIP1' datatype='string' name='[Discover EIP]' role='dimension' type='nominal' />
-            <column-instance column='[mail or username]' derivation='Count' name='[cnt:mail or username:qk]' pivot='key' type='quantitative' />
-            <column caption='Mail Or Username' datatype='string' name='[mail or username]' role='dimension' type='nominal' />
-            <column-instance column='[Discover EIP]' derivation='None' name='[none:Discover EIP:nk]' pivot='key' type='nominal' />
-          </datasource-dependencies>
-          <filter class='categorical' column='[federated.1rrq9vn0w56iti17620ee0uh52zy].[none:Discover EIP:nk]'>
-            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
-              <groupfilter function='level-members' level='[none:Discover EIP:nk]' />
-              <groupfilter function='union'>
-                <groupfilter function='member' level='[none:Discover EIP:nk]' member='%null%' />
-                <groupfilter function='member' level='[none:Discover EIP:nk]' member='&quot;Groups MM&quot;' />
-                <groupfilter function='member' level='[none:Discover EIP:nk]' member='&quot;Groups MM / Mensaje en un grupo de whatsapp&quot;' />
-                <groupfilter function='member' level='[none:Discover EIP:nk]' member='&quot;Linkedin&quot;' />
-              </groupfilter>
-            </groupfilter>
-          </filter>
-          <slices>
-            <column>[federated.1rrq9vn0w56iti17620ee0uh52zy].[none:Discover EIP:nk]</column>
-          </slices>
-          <aggregation value='true' />
-        </view>
-        <style />
-        <panes>
-          <pane selection-relaxation-option='selection-relaxation-allow'>
-            <view>
-              <breakdown value='auto' />
-            </view>
-            <mark class='Pie' />
-            <encodings>
-              <color column='[federated.1rrq9vn0w56iti17620ee0uh52zy].[none:Discover EIP:nk]' />
-              <wedge-size column='[federated.1rrq9vn0w56iti17620ee0uh52zy].[cnt:mail or username:qk]' />
-              <size column='[federated.1rrq9vn0w56iti17620ee0uh52zy].[cnt:mail or username:qk]' />
-            </encodings>
-          </pane>
-        </panes>
-        <rows />
-        <cols />
-      </table>
-      <simple-id uuid='{3A32AB1C-7EFB-4935-9AC7-D230AA18C854}' />
-    </worksheet>
-    <worksheet name='goal'>
-      <layout-options>
-        <title>
-          <formatted-text />
-        </title>
-      </layout-options>
-      <table>
-        <view>
-          <datasources>
-            <datasource caption='Hoja2 (BBDD Tableau adiciona)' name='federated.0myvqlr0lvpskm1324tu21h6p927' />
-          </datasources>
-          <datasource-dependencies datasource='federated.0myvqlr0lvpskm1324tu21h6p927'>
-            <column datatype='string' name='[Restrictions]' role='dimension' type='nominal' />
-            <column-instance column='[mail or username]' derivation='Count' name='[cnt:mail or username:qk]' pivot='key' type='quantitative' />
-            <column caption='Mail Or Username' datatype='string' name='[mail or username]' role='dimension' type='nominal' />
-            <column-instance column='[Restrictions]' derivation='None' name='[none:Restrictions:nk]' pivot='key' type='nominal' />
-          </datasource-dependencies>
-          <filter class='categorical' column='[federated.0myvqlr0lvpskm1324tu21h6p927].[none:Restrictions:nk]'>
-            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
-              <groupfilter function='level-members' level='[none:Restrictions:nk]' />
-              <groupfilter function='union'>
-                <groupfilter function='member' level='[none:Restrictions:nk]' member='%null%' />
-                <groupfilter function='member' level='[none:Restrictions:nk]' member='&quot;Convivencia&quot;' />
-                <groupfilter function='member' level='[none:Restrictions:nk]' member='&quot;Trying different alternatives and varieties of food&quot;' />
-                <groupfilter function='member' level='[none:Restrictions:nk]' member='&quot;Vegetariano - halal - otros&quot;' />
-              </groupfilter>
-            </groupfilter>
-          </filter>
-          <computed-sort column='[federated.0myvqlr0lvpskm1324tu21h6p927].[none:Restrictions:nk]' direction='DESC' using='[federated.0myvqlr0lvpskm1324tu21h6p927].[cnt:mail or username:qk]' />
-          <slices>
-            <column>[federated.0myvqlr0lvpskm1324tu21h6p927].[none:Restrictions:nk]</column>
-          </slices>
-          <aggregation value='true' />
-        </view>
-        <style>
-          <style-rule element='axis'>
-            <format attr='title' class='0' field='[federated.0myvqlr0lvpskm1324tu21h6p927].[cnt:mail or username:qk]' scope='rows' value='Usuarios' />
-            <format attr='title' class='0' field='[federated.0myvqlr0lvpskm1324tu21h6p927].[cnt:mail or username:qk]' scope='cols' value='users' />
-          </style-rule>
-        </style>
-        <panes>
-          <pane selection-relaxation-option='selection-relaxation-allow'>
-            <view>
-              <breakdown value='auto' />
-            </view>
-            <mark class='Automatic' />
-          </pane>
-        </panes>
-        <rows>[federated.0myvqlr0lvpskm1324tu21h6p927].[none:Restrictions:nk]</rows>
-        <cols>[federated.0myvqlr0lvpskm1324tu21h6p927].[cnt:mail or username:qk]</cols>
-      </table>
-      <simple-id uuid='{2EF92FAE-4C79-477D-8485-C9DAC591122E}' />
-    </worksheet>
-    <worksheet name='in'>
-      <layout-options>
-        <title>
-          <formatted-text>
-            <run>Rel-Cur</run>
-          </formatted-text>
-        </title>
-      </layout-options>
-      <table>
-        <view>
-          <datasources>
-            <datasource caption='Hoja1 (Base de datos Tableau)' name='federated.1wsl0y01f99sti182u11g1xj21qi' />
-          </datasources>
-          <datasource-dependencies datasource='federated.1wsl0y01f99sti182u11g1xj21qi'>
-            <column datatype='integer' name='[Desire to know]' role='measure' type='quantitative' />
-            <column datatype='integer' name='[Good relationship with food]' role='measure' type='quantitative' />
-            <column-instance column='[Good relationship with food]' derivation='Avg' name='[avg:Good relationship with food:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[mail or username]' derivation='Count' name='[cnt:mail or username:qk]' pivot='key' type='quantitative' />
-            <column caption='Mail Or Username' datatype='string' name='[mail or username]' role='dimension' type='nominal' />
-            <column-instance column='[Desire to know]' derivation='None' name='[none:Desire to know:ok]' pivot='key' type='ordinal' />
-            <column-instance column='[Desire to know]' derivation='None' name='[none:Desire to know:qk]' pivot='key' type='quantitative' />
-          </datasource-dependencies>
-          <filter class='categorical' column='[federated.1wsl0y01f99sti182u11g1xj21qi].[none:Desire to know:ok]'>
-            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
-              <groupfilter function='level-members' level='[none:Desire to know:ok]' />
-              <groupfilter function='member' level='[none:Desire to know:ok]' member='%null%' />
-            </groupfilter>
-          </filter>
-          <slices>
-            <column>[federated.1wsl0y01f99sti182u11g1xj21qi].[none:Desire to know:ok]</column>
-          </slices>
-          <aggregation value='true' />
-        </view>
-        <style />
-        <panes>
-          <pane selection-relaxation-option='selection-relaxation-allow'>
-            <view>
-              <breakdown value='auto' />
-            </view>
-            <mark class='Circle' />
-            <encodings>
-              <size column='[federated.1wsl0y01f99sti182u11g1xj21qi].[cnt:mail or username:qk]' />
-              <text column='[federated.1wsl0y01f99sti182u11g1xj21qi].[none:Desire to know:qk]' />
-              <color column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Good relationship with food:qk]' />
-            </encodings>
-            <style>
-              <style-rule element='mark'>
-                <format attr='mark-labels-show' value='true' />
-                <format attr='mark-labels-cull' value='true' />
-                <format attr='mark-labels-line-first' value='true' />
-                <format attr='mark-labels-line-last' value='true' />
-                <format attr='mark-labels-range-min' value='true' />
-                <format attr='mark-labels-range-max' value='true' />
-                <format attr='mark-labels-mode' value='all' />
-                <format attr='mark-labels-range-scope' value='pane' />
-                <format attr='mark-labels-range-field' value='' />
-              </style-rule>
-            </style>
-          </pane>
-        </panes>
-        <rows />
-        <cols />
-      </table>
-      <simple-id uuid='{ABD508EC-C8C6-4119-9EE9-DAF5EC8AB789}' />
-    </worksheet>
-    <worksheet name='int'>
-      <layout-options>
-        <title>
-          <formatted-text>
-            <run>Intereses</run>
-          </formatted-text>
-        </title>
-      </layout-options>
-      <table>
-        <view>
-          <datasources>
-            <datasource caption='Hoja1 (Base de datos Tableau)' name='federated.1wsl0y01f99sti182u11g1xj21qi' />
-          </datasources>
-          <datasource-dependencies datasource='federated.1wsl0y01f99sti182u11g1xj21qi'>
-            <column datatype='integer' name='[Alternatives]' role='measure' type='quantitative' />
-            <column datatype='integer' name='[Easy]' role='measure' type='quantitative' />
-            <column datatype='integer' name='[Groups]' role='measure' type='quantitative' />
-            <column datatype='integer' name='[Health]' role='measure' type='quantitative' />
-            <column datatype='integer' name='[Knowledge]' role='measure' type='quantitative' />
-            <column datatype='integer' name='[New]' role='measure' type='quantitative' />
-            <column datatype='integer' name='[Plans]' role='measure' type='quantitative' />
-            <column datatype='integer' name='[Storage]' role='measure' type='quantitative' />
-            <column-instance column='[Alternatives]' derivation='Avg' name='[avg:Alternatives:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Easy]' derivation='Avg' name='[avg:Easy:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Groups]' derivation='Avg' name='[avg:Groups:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Health]' derivation='Avg' name='[avg:Health:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Knowledge]' derivation='Avg' name='[avg:Knowledge:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[New]' derivation='Avg' name='[avg:New:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Plans]' derivation='Avg' name='[avg:Plans:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Storage]' derivation='Avg' name='[avg:Storage:qk]' pivot='key' type='quantitative' />
-          </datasource-dependencies>
-          <filter class='categorical' column='[federated.1wsl0y01f99sti182u11g1xj21qi].[:Measure Names]'>
-            <groupfilter function='union' user:op='manual'>
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:New:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Easy:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Health:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Storage:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Plans:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Groups:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Alternatives:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Knowledge:qk]&quot;' />
-            </groupfilter>
-          </filter>
-          <manual-sort column='[federated.1wsl0y01f99sti182u11g1xj21qi].[:Measure Names]' direction='ASC'>
-            <dictionary>
-              <bucket>&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:New:qk]&quot;</bucket>
-              <bucket>&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Easy:qk]&quot;</bucket>
-              <bucket>&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Health:qk]&quot;</bucket>
-              <bucket>&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Storage:qk]&quot;</bucket>
-              <bucket>&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Plans:qk]&quot;</bucket>
-              <bucket>&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Groups:qk]&quot;</bucket>
-              <bucket>&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Alternatives:qk]&quot;</bucket>
-              <bucket>&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Knowledge:qk]&quot;</bucket>
-            </dictionary>
-          </manual-sort>
-          <slices>
-            <column>[federated.1wsl0y01f99sti182u11g1xj21qi].[:Measure Names]</column>
-          </slices>
-          <aggregation value='true' />
-        </view>
-        <style />
-        <panes>
-          <pane selection-relaxation-option='selection-relaxation-allow'>
-            <view>
-              <breakdown value='auto' />
-            </view>
-            <mark class='Automatic' />
-          </pane>
-        </panes>
-        <rows>[federated.1wsl0y01f99sti182u11g1xj21qi].[:Measure Names]</rows>
-        <cols>[federated.1wsl0y01f99sti182u11g1xj21qi].[Multiple Values]</cols>
-      </table>
-      <simple-id uuid='{D2FEF9E9-2A28-40E4-9FEB-93189E8904F9}' />
-    </worksheet>
-    <worksheet name='map'>
+    <worksheet name='Hoja 1'>
       <layout-options>
         <title>
           <formatted-text />
@@ -3156,51 +2394,533 @@
       </table>
       <simple-id uuid='{B8239863-5631-4134-83D2-233AB725A45B}' />
     </worksheet>
+    <worksheet name='Hoja 2'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Base de datos Tableau)' name='federated.1rrq9vn0w56iti17620ee0uh52zy' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1rrq9vn0w56iti17620ee0uh52zy'>
+            <column caption='Age1' datatype='integer' name='[Age]' role='dimension' type='ordinal' />
+            <column caption='Discover EIP1' datatype='string' name='[Discover EIP]' role='dimension' type='nominal' />
+            <column caption='Genre1' datatype='string' name='[Genre]' role='dimension' type='nominal' />
+            <column-instance column='[mail or username]' derivation='Count' name='[cnt:mail or username:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Age]' derivation='CountD' name='[ctd:Age:qk]' pivot='key' type='quantitative' />
+            <column caption='Mail Or Username' datatype='string' name='[mail or username]' role='dimension' type='nominal' />
+            <column-instance column='[Age]' derivation='None' name='[none:Age:nk]' pivot='key' type='ordinal' />
+            <column-instance column='[Genre]' derivation='None' name='[none:Genre:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1rrq9vn0w56iti17620ee0uh52zy].[Action (Discover EIP1)]'>
+            <groupfilter function='level-members' level='[Discover EIP]' user:ui-action-filter='[Action1_7F82D05401E84DF7AF5902CAE174B931]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1rrq9vn0w56iti17620ee0uh52zy].[Exclusiones (Age1,Genre1)]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='level-members' level='[none:Age:nk]' />
+                <groupfilter function='level-members' level='[none:Genre:nk]' />
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[none:Age:nk]' member='%null%' />
+                <groupfilter function='member' level='[none:Genre:nk]' member='%null%' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.1rrq9vn0w56iti17620ee0uh52zy].[ctd:Age:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.1rrq9vn0w56iti17620ee0uh52zy].[ctd:Age:qk]</column>
+            <column>[federated.1rrq9vn0w56iti17620ee0uh52zy].[Exclusiones (Age1,Genre1)]</column>
+            <column>[federated.1rrq9vn0w56iti17620ee0uh52zy].[Action (Discover EIP1)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1rrq9vn0w56iti17620ee0uh52zy].[cnt:mail or username:qk]' scope='rows' value='Users by Age grouping (from)' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1rrq9vn0w56iti17620ee0uh52zy].[none:Genre:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1rrq9vn0w56iti17620ee0uh52zy].[cnt:mail or username:qk]</rows>
+        <cols />
+        <show-full-range>
+          <column>[federated.1rrq9vn0w56iti17620ee0uh52zy].[Age1 (agrupación) 2]</column>
+          <column>[federated.1rrq9vn0w56iti17620ee0uh52zy].[Age1 (agrupación)]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{8589211C-4321-40F2-AA7B-BE6CE9257BE0}' />
+    </worksheet>
+    <worksheet name='Hoja 3'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Base de datos Tableau)' name='federated.1rrq9vn0w56iti17620ee0uh52zy' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1rrq9vn0w56iti17620ee0uh52zy'>
+            <column caption='Discover EIP1' datatype='string' name='[Discover EIP]' role='dimension' type='nominal' />
+            <column-instance column='[mail or username]' derivation='Count' name='[cnt:mail or username:qk]' pivot='key' type='quantitative' />
+            <column caption='Mail Or Username' datatype='string' name='[mail or username]' role='dimension' type='nominal' />
+            <column-instance column='[Discover EIP]' derivation='None' name='[none:Discover EIP:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1rrq9vn0w56iti17620ee0uh52zy].[none:Discover EIP:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Discover EIP:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Discover EIP:nk]' member='%null%' />
+                <groupfilter function='member' level='[none:Discover EIP:nk]' member='&quot;Groups MM&quot;' />
+                <groupfilter function='member' level='[none:Discover EIP:nk]' member='&quot;Groups MM / Mensaje en un grupo de whatsapp&quot;' />
+                <groupfilter function='member' level='[none:Discover EIP:nk]' member='&quot;Linkedin&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1rrq9vn0w56iti17620ee0uh52zy].[none:Discover EIP:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.1rrq9vn0w56iti17620ee0uh52zy].[none:Discover EIP:nk]' />
+              <wedge-size column='[federated.1rrq9vn0w56iti17620ee0uh52zy].[cnt:mail or username:qk]' />
+              <size column='[federated.1rrq9vn0w56iti17620ee0uh52zy].[cnt:mail or username:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{3A32AB1C-7EFB-4935-9AC7-D230AA18C854}' />
+    </worksheet>
+    <worksheet name='Hoja 4'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Hoja2 (BBDD Tableau adiciona)' name='federated.0myvqlr0lvpskm1324tu21h6p927' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0myvqlr0lvpskm1324tu21h6p927'>
+            <column datatype='string' name='[Restrictions]' role='dimension' type='nominal' />
+            <column-instance column='[mail or username]' derivation='Count' name='[cnt:mail or username:qk]' pivot='key' type='quantitative' />
+            <column caption='Mail Or Username' datatype='string' name='[mail or username]' role='dimension' type='nominal' />
+            <column-instance column='[Restrictions]' derivation='None' name='[none:Restrictions:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0myvqlr0lvpskm1324tu21h6p927].[none:Restrictions:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Restrictions:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Restrictions:nk]' member='%null%' />
+                <groupfilter function='member' level='[none:Restrictions:nk]' member='&quot;Convivencia&quot;' />
+                <groupfilter function='member' level='[none:Restrictions:nk]' member='&quot;Trying different alternatives and varieties of food&quot;' />
+                <groupfilter function='member' level='[none:Restrictions:nk]' member='&quot;Vegetariano - halal - otros&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.0myvqlr0lvpskm1324tu21h6p927].[none:Restrictions:nk]' direction='DESC' using='[federated.0myvqlr0lvpskm1324tu21h6p927].[cnt:mail or username:qk]' />
+          <slices>
+            <column>[federated.0myvqlr0lvpskm1324tu21h6p927].[none:Restrictions:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0myvqlr0lvpskm1324tu21h6p927].[cnt:mail or username:qk]' scope='rows' value='Usuarios' />
+            <format attr='title' class='0' field='[federated.0myvqlr0lvpskm1324tu21h6p927].[cnt:mail or username:qk]' scope='cols' value='users' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0myvqlr0lvpskm1324tu21h6p927].[none:Restrictions:nk]</rows>
+        <cols>[federated.0myvqlr0lvpskm1324tu21h6p927].[cnt:mail or username:qk]</cols>
+      </table>
+      <simple-id uuid='{2EF92FAE-4C79-477D-8485-C9DAC591122E}' />
+    </worksheet>
+    <worksheet name='Hoja 5'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Hoja1 (Base de datos Tableau)' name='federated.1wsl0y01f99sti182u11g1xj21qi' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1wsl0y01f99sti182u11g1xj21qi'>
+            <column datatype='integer' name='[Easy to understand]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Easy to use]' role='measure' type='quantitative' />
+            <column-instance column='[Easy to understand]' derivation='Avg' name='[avg:Easy to understand:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Easy to use]' derivation='Avg' name='[avg:Easy to use:qk]' pivot='key' type='quantitative' />
+            <column caption='Mail Or Username' datatype='string' name='[mail or username]' role='dimension' type='nominal' />
+            <column-instance column='[mail or username]' derivation='None' name='[none:mail or username:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Easy to understand:qk]' included-values='in-range'>
+            <min>1.0</min>
+            <max>5.0</max>
+          </filter>
+          <filter class='quantitative' column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Easy to use:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Easy to understand:qk]</column>
+            <column>[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Easy to use:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.1wsl0y01f99sti182u11g1xj21qi].[none:mail or username:nk]' />
+            </encodings>
+            <reference-line axis-column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Easy to understand:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Easy to understand:qk]' z-order='1' />
+            <reference-line axis-column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Easy to use:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline1' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Easy to use:qk]' z-order='2' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Easy to understand:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.1wsl0y01f99sti182u11g1xj21qi].[none:mail or username:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Easy to use:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.1wsl0y01f99sti182u11g1xj21qi].[none:mail or username:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Easy to understand:qk] + [federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Easy to use:qk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{5ED8202A-BB3F-4701-B378-DC4D120F937B}' />
+    </worksheet>
+    <worksheet name='Hoja 6'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Hoja1 (Base de datos Tableau)' name='federated.1wsl0y01f99sti182u11g1xj21qi' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1wsl0y01f99sti182u11g1xj21qi'>
+            <column datatype='integer' name='[Design (UX / UI)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Process Speed]' role='measure' type='quantitative' />
+            <column-instance column='[Design (UX / UI)]' derivation='Avg' name='[avg:Design (UX / UI):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Process Speed]' derivation='Avg' name='[avg:Process Speed:qk]' pivot='key' type='quantitative' />
+            <column caption='Mail Or Username' datatype='string' name='[mail or username]' role='dimension' type='nominal' />
+            <column-instance column='[mail or username]' derivation='None' name='[none:mail or username:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Design (UX / UI):qk]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Process Speed:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Process Speed:qk]</column>
+            <column>[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Design (UX / UI):qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.1wsl0y01f99sti182u11g1xj21qi].[none:mail or username:nk]' />
+            </encodings>
+            <reference-line axis-column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Design (UX / UI):qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Design (UX / UI):qk]' z-order='1' />
+            <reference-line axis-column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Process Speed:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline1' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Process Speed:qk]' z-order='2' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Design (UX / UI):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.1wsl0y01f99sti182u11g1xj21qi].[none:mail or username:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Process Speed:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.1wsl0y01f99sti182u11g1xj21qi].[none:mail or username:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Design (UX / UI):qk] + [federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Process Speed:qk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{7EB96736-590B-45C6-B946-5F53212CFFA4}' />
+    </worksheet>
+    <worksheet name='Hoja 7'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Hoja1 (Base de datos Tableau)' name='federated.1wsl0y01f99sti182u11g1xj21qi' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1wsl0y01f99sti182u11g1xj21qi'>
+            <column datatype='integer' name='[Variety of food]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Variety of restrictions]' role='measure' type='quantitative' />
+            <column-instance column='[Variety of food]' derivation='Avg' name='[avg:Variety of food:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Variety of restrictions]' derivation='Avg' name='[avg:Variety of restrictions:qk]' pivot='key' type='quantitative' />
+            <column caption='Mail Or Username' datatype='string' name='[mail or username]' role='dimension' type='nominal' />
+            <column-instance column='[mail or username]' derivation='None' name='[none:mail or username:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Variety of food:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Variety of food:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.1wsl0y01f99sti182u11g1xj21qi].[none:mail or username:nk]' />
+            </encodings>
+            <reference-line axis-column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Variety of food:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Variety of food:qk]' z-order='1' />
+            <reference-line axis-column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Variety of restrictions:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline1' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Variety of restrictions:qk]' z-order='2' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Variety of food:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.1wsl0y01f99sti182u11g1xj21qi].[none:mail or username:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Variety of restrictions:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.1wsl0y01f99sti182u11g1xj21qi].[none:mail or username:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Variety of food:qk] + [federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Variety of restrictions:qk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{0E899557-A360-400B-B756-379B91707EF1}' />
+    </worksheet>
+    <worksheet name='Hoja 8'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Dificultades</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Hoja1 (Base de datos Tableau)' name='federated.1wsl0y01f99sti182u11g1xj21qi' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1wsl0y01f99sti182u11g1xj21qi'>
+            <column datatype='integer' name='[Difficult find alternatives]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Difficult find best recipes]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Difficult find restaurants]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Difficult to live with restrictions]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Difficulty finding recipes]' role='measure' type='quantitative' />
+            <column-instance column='[Difficult find alternatives]' derivation='Avg' name='[avg:Difficult find alternatives:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Difficult find best recipes]' derivation='Avg' name='[avg:Difficult find best recipes:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Difficult find restaurants]' derivation='Avg' name='[avg:Difficult find restaurants:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Difficult to live with restrictions]' derivation='Avg' name='[avg:Difficult to live with restrictions:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Difficulty finding recipes]' derivation='Sum' name='[sum:Difficulty finding recipes:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1wsl0y01f99sti182u11g1xj21qi].[:Measure Names]'>
+            <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Difficult find alternatives:qk]&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <manual-sort column='[federated.1wsl0y01f99sti182u11g1xj21qi].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Difficult find alternatives:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Difficult find best recipes:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Difficult find restaurants:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Difficult to live with restrictions:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1wsl0y01f99sti182u11g1xj21qi].[sum:Difficulty finding recipes:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1wsl0y01f99sti182u11g1xj21qi].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1wsl0y01f99sti182u11g1xj21qi].[:Measure Names]</rows>
+        <cols>[federated.1wsl0y01f99sti182u11g1xj21qi].[Multiple Values]</cols>
+      </table>
+      <simple-id uuid='{4A2096CB-425C-40E2-8BE0-C7DD9D982065}' />
+    </worksheet>
+    <worksheet name='Hoja 9'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Hoja1 (Base de datos Tableau)' name='federated.1wsl0y01f99sti182u11g1xj21qi' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1wsl0y01f99sti182u11g1xj21qi'>
+            <column datatype='integer' name='[Apps reliability]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Insatisfaction with apps]' role='measure' type='quantitative' />
+            <column-instance column='[mail or username]' derivation='Count' name='[cnt:mail or username:qk]' pivot='key' type='quantitative' />
+            <column caption='Mail Or Username' datatype='string' name='[mail or username]' role='dimension' type='nominal' />
+            <column-instance column='[Apps reliability]' derivation='None' name='[none:Apps reliability:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Insatisfaction with apps]' derivation='Sum' name='[sum:Insatisfaction with apps:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1wsl0y01f99sti182u11g1xj21qi].[cnt:mail or username:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1wsl0y01f99sti182u11g1xj21qi].[sum:Insatisfaction with apps:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>([federated.1wsl0y01f99sti182u11g1xj21qi].[cnt:mail or username:qk] + [federated.1wsl0y01f99sti182u11g1xj21qi].[sum:Insatisfaction with apps:qk])</rows>
+        <cols>[federated.1wsl0y01f99sti182u11g1xj21qi].[none:Apps reliability:qk]</cols>
+      </table>
+      <simple-id uuid='{D2FEF9E9-2A28-40E4-9FEB-93189E8904F9}' />
+    </worksheet>
   </worksheets>
   <dashboards>
-    <dashboard name='Historia 1' type='storyboard'>
-      <style />
-      <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
-      <zones>
-        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
-          <zone h='98340' id='1' param='vert' removable='false' type-v2='layout-flow' w='98426' x='787' y='830'>
-            <zone h='5187' id='3' type-v2='title' w='98426' x='787' y='830' />
-            <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98426' x='787' y='6017' />
-            <zone h='82676' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98426' x='787' y='16494'>
-              <flipboard active-id='1' nav-type='caption' show-nav-arrows='true'>
-                <story-points>
-                  <story-point caption='Usuarios' captured-sheet='avg_user' id='1'>
-                    <capturedDeltas>
-                      <worksheet name='map'>
-                        <style delta-type='added'>
-                          <style-rule element='axis'>
-                            <encoding attr='space' class='0' field='[federated.1rrq9vn0w56iti17620ee0uh52zy].[Longitude (generated)]' field-type='quantitative' max='21197976.419995204' min='-17468152.22848253' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
-                          </style-rule>
-                        </style>
-                      </worksheet>
-                    </capturedDeltas>
-                  </story-point>
-                  <story-point caption='App' captured-sheet='cajas' id='2' />
-                </story-points>
-              </flipboard>
-            </zone>
-          </zone>
-          <zone-style>
-            <format attr='border-color' value='#000000' />
-            <format attr='border-style' value='none' />
-            <format attr='border-width' value='0' />
-            <format attr='margin' value='8' />
-          </zone-style>
-        </zone>
-      </zones>
-      <simple-id uuid='{8881F0F8-579B-4A12-A6F9-A0898F665048}' />
-    </dashboard>
-    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='avg_user'>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
       <style />
       <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
       <zones>
         <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
-          <zone h='49000' id='3' name='map' w='50300' x='800' y='1000'>
+          <zone h='49000' id='3' name='Hoja 1' w='50300' x='800' y='1000'>
             <zone-style>
               <format attr='border-color' value='#000000' />
               <format attr='border-style' value='none' />
@@ -3208,7 +2928,7 @@
               <format attr='margin' value='4' />
             </zone-style>
           </zone>
-          <zone h='49000' id='9' name='age' w='76900' x='800' y='50000'>
+          <zone h='49000' id='9' name='Hoja 2' w='76900' x='800' y='50000'>
             <zone-style>
               <format attr='border-color' value='#000000' />
               <format attr='border-style' value='none' />
@@ -3216,7 +2936,7 @@
               <format attr='margin' value='4' />
             </zone-style>
           </zone>
-          <zone h='49000' id='21' name='goal' w='48100' x='51100' y='1000'>
+          <zone h='49000' id='21' name='Hoja 4' w='48100' x='51100' y='1000'>
             <zone-style>
               <format attr='border-color' value='#000000' />
               <format attr='border-style' value='none' />
@@ -3224,7 +2944,7 @@
               <format attr='margin' value='4' />
             </zone-style>
           </zone>
-          <zone h='25000' id='13' name='disc' w='21500' x='77700' y='50000'>
+          <zone h='25000' id='13' name='Hoja 3' w='21500' x='77700' y='50000'>
             <zone-style>
               <format attr='border-color' value='#000000' />
               <format attr='border-style' value='none' />
@@ -3232,7 +2952,7 @@
               <format attr='margin' value='4' />
             </zone-style>
           </zone>
-          <zone h='24000' id='14' name='disc' pane-specification-id='0' param='[federated.1rrq9vn0w56iti17620ee0uh52zy].[none:Discover EIP:nk]' type-v2='color' w='21500' x='77700' y='75000'>
+          <zone h='24000' id='14' name='Hoja 3' pane-specification-id='0' param='[federated.1rrq9vn0w56iti17620ee0uh52zy].[none:Discover EIP:nk]' type-v2='color' w='21500' x='77700' y='75000'>
             <zone-style>
               <format attr='border-color' value='#000000' />
               <format attr='border-style' value='none' />
@@ -3250,11 +2970,11 @@
       </zones>
       <devicelayouts>
         <devicelayout auto-generated='true' name='Phone'>
-          <size maxheight='850' minheight='850' sizing-mode='vscroll' />
+          <size maxheight='1150' minheight='1150' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='20' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='19' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
-                <zone fixed-size='188' h='24500' id='13' is-fixed='true' name='disc' w='22600' x='800' y='1000'>
+            <zone h='100000' id='23' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='22' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone fixed-size='280' h='49000' id='3' is-fixed='true' name='Hoja 1' w='50300' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -3263,7 +2983,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='24500' id='14' name='disc' pane-specification-id='0' param='[federated.1rrq9vn0w56iti17620ee0uh52zy].[none:Discover EIP:nk]' type-v2='color' w='22600' x='800' y='25500'>
+                <zone fixed-size='280' h='49000' id='21' is-fixed='true' name='Hoja 4' w='48100' x='51100' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -3272,7 +2992,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='280' h='49000' id='3' is-fixed='true' name='map' w='75800' x='23400' y='1000'>
+                <zone fixed-size='280' h='49000' id='9' is-fixed='true' name='Hoja 2' w='76900' x='800' y='50000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -3281,7 +3001,16 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='280' h='49000' id='9' is-fixed='true' name='age' w='98400' x='800' y='50000'>
+                <zone fixed-size='192' h='25000' id='13' is-fixed='true' name='Hoja 3' w='21500' x='77700' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='24000' id='14' name='Hoja 3' pane-specification-id='0' param='[federated.1rrq9vn0w56iti17620ee0uh52zy].[none:Discover EIP:nk]' type-v2='color' w='21500' x='77700' y='75000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -3303,12 +3032,12 @@
       </devicelayouts>
       <simple-id uuid='{1C1BBF5D-E7E1-4DB4-8139-F091A486E2CB}' />
     </dashboard>
-    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='cajas'>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 2'>
       <style />
       <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
       <zones>
         <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
-          <zone h='98000' id='3' name='c_easy' w='32500' x='800' y='1000'>
+          <zone h='98000' id='3' name='Hoja 5' w='32500' x='800' y='1000'>
             <zone-style>
               <format attr='border-color' value='#000000' />
               <format attr='border-style' value='none' />
@@ -3316,7 +3045,7 @@
               <format attr='margin' value='4' />
             </zone-style>
           </zone>
-          <zone h='98000' id='5' name='c_oth' w='33300' x='33300' y='1000'>
+          <zone h='98000' id='5' name='Hoja 6' w='33300' x='33300' y='1000'>
             <zone-style>
               <format attr='border-color' value='#000000' />
               <format attr='border-style' value='none' />
@@ -3324,7 +3053,7 @@
               <format attr='margin' value='4' />
             </zone-style>
           </zone>
-          <zone h='98000' id='6' name='c_var' w='32600' x='66600' y='1000'>
+          <zone h='98000' id='6' name='Hoja 7' w='32600' x='66600' y='1000'>
             <zone-style>
               <format attr='border-color' value='#000000' />
               <format attr='border-style' value='none' />
@@ -3342,10 +3071,38 @@
       </zones>
       <devicelayouts>
         <devicelayout auto-generated='true' name='Phone'>
-          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <size maxheight='900' minheight='900' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+            <zone h='100000' id='8' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='7' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='Hoja 5' w='32500' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='98000' id='5' is-fixed='true' name='Hoja 6' w='33300' x='33300' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='98000' id='6' is-fixed='true' name='Hoja 7' w='32600' x='66600' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
               <zone-style>
                 <format attr='border-color' value='#000000' />
                 <format attr='border-style' value='none' />
@@ -3358,38 +3115,14 @@
       </devicelayouts>
       <simple-id uuid='{EBDA6720-F45F-4390-B35B-A2DA57EA7265}' />
     </dashboard>
-    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='trend'>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 3'>
       <style />
       <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
       <zones>
         <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
           <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
             <zone h='98000' id='5' type-v2='layout-basic' w='82400' x='800' y='1000'>
-              <zone h='43625' id='3' name='dif' w='42500' x='40700' y='1000'>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='none' />
-                  <format attr='border-width' value='0' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-              <zone h='54375' id='11' name='int' w='41900' x='800' y='44625'>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='none' />
-                  <format attr='border-width' value='0' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-              <zone h='43625' id='12' name='in' w='39900' x='800' y='1000'>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='none' />
-                  <format attr='border-width' value='0' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-              <zone h='54375' id='13' name='apps' w='40500' x='42700' y='44625'>
+              <zone h='98000' id='3' name='Hoja 8' w='82400' x='800' y='1000'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -3399,7 +3132,7 @@
               </zone>
             </zone>
             <zone fixed-size='160' h='98000' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='16000' x='83200' y='1000'>
-              <zone h='3375' id='8' name='dif' pane-specification-id='1' param='[federated.1wsl0y01f99sti182u11g1xj21qi].[:Measure Names]' type-v2='color' w='16000' x='83200' y='1000'>
+              <zone h='7375' id='8' name='Hoja 8' pane-specification-id='1' param='[federated.1wsl0y01f99sti182u11g1xj21qi].[:Measure Names]' type-v2='color' w='16000' x='83200' y='1000'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -3407,7 +3140,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='3375' id='9' name='dif' pane-specification-id='2' param='[federated.1wsl0y01f99sti182u11g1xj21qi].[sum:Difficult find alternatives:qk]' type-v2='color' w='16000' x='83200' y='4375'>
+              <zone h='10125' id='9' name='Hoja 8' pane-specification-id='2' param='[federated.1wsl0y01f99sti182u11g1xj21qi].[sum:Difficult find alternatives:qk]' type-v2='color' w='16000' x='83200' y='8375'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -3415,7 +3148,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='3375' id='10' name='dif' pane-specification-id='4' param='[federated.1wsl0y01f99sti182u11g1xj21qi].[sum:Difficult to live with restrictions:qk]' type-v2='color' w='16000' x='83200' y='7750'>
+              <zone h='10125' id='10' name='Hoja 8' pane-specification-id='4' param='[federated.1wsl0y01f99sti182u11g1xj21qi].[sum:Difficult to live with restrictions:qk]' type-v2='color' w='16000' x='83200' y='18500'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -3437,8 +3170,45 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+            <zone h='100000' id='12' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='11' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='Hoja 8' w='82400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7375' id='8' name='Hoja 8' pane-specification-id='1' param='[federated.1wsl0y01f99sti182u11g1xj21qi].[:Measure Names]' type-v2='color' w='16000' x='83200' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10125' id='9' name='Hoja 8' pane-specification-id='2' param='[federated.1wsl0y01f99sti182u11g1xj21qi].[sum:Difficult find alternatives:qk]' type-v2='color' w='16000' x='83200' y='8375'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10125' id='10' name='Hoja 8' pane-specification-id='4' param='[federated.1wsl0y01f99sti182u11g1xj21qi].[sum:Difficult to live with restrictions:qk]' type-v2='color' w='16000' x='83200' y='18500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
               <zone-style>
                 <format attr='border-color' value='#000000' />
                 <format attr='border-style' value='none' />
@@ -3451,9 +3221,46 @@
       </devicelayouts>
       <simple-id uuid='{385BD058-F483-4C34-AB0A-A8C70D2F0B9A}' />
     </dashboard>
+    <dashboard name='Historia 1' type='storyboard'>
+      <style />
+      <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98340' id='1' param='vert' removable='false' type-v2='layout-flow' w='98426' x='787' y='830'>
+            <zone h='5187' id='3' type-v2='title' w='98426' x='787' y='830' />
+            <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98426' x='787' y='6017' />
+            <zone h='82676' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98426' x='787' y='16494'>
+              <flipboard active-id='1' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point caption='Usuarios' captured-sheet='Dashboard 1' id='1'>
+                    <capturedDeltas>
+                      <worksheet name='Hoja 1'>
+                        <style delta-type='added'>
+                          <style-rule element='axis'>
+                            <encoding attr='space' class='0' field='[federated.1rrq9vn0w56iti17620ee0uh52zy].[Longitude (generated)]' field-type='quantitative' max='21197976.419995204' min='-17468152.22848253' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+                          </style-rule>
+                        </style>
+                      </worksheet>
+                    </capturedDeltas>
+                  </story-point>
+                  <story-point caption='App' captured-sheet='Dashboard 2' id='2' />
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{8881F0F8-579B-4A12-A6F9-A0898F665048}' />
+    </dashboard>
   </dashboards>
-  <windows source-height='106'>
-    <window class='worksheet' name='map'>
+  <windows saved-dpi-scale-factor='1.5' source-height='106'>
+    <window class='worksheet' name='Hoja 1'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -3471,17 +3278,12 @@
           </strip>
           <strip size='30'>
             <card type='title' />
-          </strip>
-        </edge>
-        <edge name='right'>
-          <strip size='174'>
-            <card pane-specification-id='0' param='[federated.1rrq9vn0w56iti17620ee0uh52zy].[cnt:mail or username:qk]' type='color' />
           </strip>
         </edge>
       </cards>
       <simple-id uuid='{7F3AD9A0-5E4C-412A-9A70-0DF752AEDC9A}' />
     </window>
-    <window class='worksheet' name='age'>
+    <window class='worksheet' maximized='true' name='Hoja 2'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -3501,16 +3303,10 @@
             <card type='title' />
           </strip>
         </edge>
-        <edge name='right'>
-          <strip size='174'>
-            <card param='[federated.1rrq9vn0w56iti17620ee0uh52zy].[none:Age1 (agrupación):ok]' type='filter' />
-            <card pane-specification-id='0' param='[federated.1rrq9vn0w56iti17620ee0uh52zy].[none:Genre:nk]' type='color' />
-          </strip>
-        </edge>
       </cards>
       <simple-id uuid='{CB6954C8-00B7-45E3-AB51-C42F5BAAF4DF}' />
     </window>
-    <window class='worksheet' name='disc'>
+    <window class='worksheet' name='Hoja 3'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -3540,7 +3336,7 @@
       </cards>
       <simple-id uuid='{67B19F1E-BF9D-42FA-AB80-34279BF74E2F}' />
     </window>
-    <window class='worksheet' name='goal'>
+    <window class='worksheet' name='Hoja 4'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -3563,22 +3359,22 @@
       </cards>
       <simple-id uuid='{213D5DAA-2DCC-418D-8060-9674EE6C765A}' />
     </window>
-    <window class='dashboard' name='avg_user'>
+    <window class='dashboard' name='Dashboard 1'>
       <viewpoints>
-        <viewpoint name='age'>
-          <zoom type='entire-view' />
-        </viewpoint>
-        <viewpoint name='disc' />
-        <viewpoint name='goal' />
-        <viewpoint name='map'>
+        <viewpoint name='Hoja 1'>
           <zoom type='entire-view' />
           <default-map-tool-selection tool='1' />
         </viewpoint>
+        <viewpoint name='Hoja 2'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Hoja 3' />
+        <viewpoint name='Hoja 4' />
       </viewpoints>
-      <active id='9' />
+      <active id='-1' />
       <simple-id uuid='{CAE58174-C163-4C37-B09C-4B46ED5EC45A}' />
     </window>
-    <window class='worksheet' name='c_easy'>
+    <window class='worksheet' name='Hoja 5'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -3601,7 +3397,7 @@
       </cards>
       <simple-id uuid='{D68FF131-AAF1-4267-9A4D-A9C153C61566}' />
     </window>
-    <window class='worksheet' name='c_oth'>
+    <window class='worksheet' name='Hoja 6'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -3624,7 +3420,7 @@
       </cards>
       <simple-id uuid='{5A1DB697-AB04-4950-A1E4-5E439205E0DD}' />
     </window>
-    <window class='worksheet' name='c_var'>
+    <window class='worksheet' name='Hoja 7'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -3647,22 +3443,27 @@
       </cards>
       <simple-id uuid='{8F777EC1-08CC-4397-8FC2-CD8321045324}' />
     </window>
-    <window class='dashboard' name='cajas'>
+    <window class='dashboard' name='Dashboard 2'>
       <viewpoints>
-        <viewpoint name='c_easy'>
+        <viewpoint name='Hoja 5'>
           <zoom type='entire-view' />
         </viewpoint>
-        <viewpoint name='c_oth'>
+        <viewpoint name='Hoja 6'>
           <zoom type='entire-view' />
         </viewpoint>
-        <viewpoint name='c_var'>
+        <viewpoint name='Hoja 7'>
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
       <active id='-1' />
       <simple-id uuid='{F6C2F922-5D1C-40E9-B235-9553D89F0E15}' />
     </window>
-    <window class='worksheet' name='dif'>
+    <window class='dashboard' name='Historia 1'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{1F2EC23E-B374-4C5F-AF52-0F26F675381B}' />
+    </window>
+    <window class='worksheet' name='Hoja 8'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -3686,14 +3487,13 @@
       </cards>
       <simple-id uuid='{5A08F4A7-2CA2-473A-B57B-57A8E4028D47}' />
     </window>
-    <window class='worksheet' name='int'>
+    <window class='worksheet' name='Hoja 9'>
       <cards>
         <edge name='left'>
           <strip size='160'>
             <card type='pages' />
             <card type='filters' />
             <card type='marks' />
-            <card type='measures' />
           </strip>
         </edge>
         <edge name='top'>
@@ -3710,101 +3510,14 @@
       </cards>
       <simple-id uuid='{3576B5B9-6433-4921-8480-356CF943950A}' />
     </window>
-    <window class='worksheet' name='in'>
-      <cards>
-        <edge name='left'>
-          <strip size='160'>
-            <card type='pages' />
-            <card type='filters' />
-            <card type='marks' />
-          </strip>
-        </edge>
-        <edge name='top'>
-          <strip size='2147483647'>
-            <card type='columns' />
-          </strip>
-          <strip size='2147483647'>
-            <card type='rows' />
-          </strip>
-          <strip size='30'>
-            <card type='title' />
-          </strip>
-        </edge>
-        <edge name='right'>
-          <strip size='174'>
-            <card pane-specification-id='0' param='[federated.1wsl0y01f99sti182u11g1xj21qi].[avg:Good relationship with food:qk]' type='color' />
-          </strip>
-        </edge>
-      </cards>
-      <simple-id uuid='{F3FA55B1-3BD9-4914-9EF6-7DCA64DB5412}' />
-    </window>
-    <window class='worksheet' name='apps'>
-      <cards>
-        <edge name='left'>
-          <strip size='160'>
-            <card type='pages' />
-            <card type='filters' />
-            <card type='marks' />
-          </strip>
-        </edge>
-        <edge name='top'>
-          <strip size='2147483647'>
-            <card type='columns' />
-          </strip>
-          <strip size='2147483647'>
-            <card type='rows' />
-          </strip>
-          <strip size='30'>
-            <card type='title' />
-          </strip>
-        </edge>
-        <edge name='right'>
-          <strip size='174'>
-            <card pane-specification-id='0' param='[federated.1wsl0y01f99sti182u11g1xj21qi].[cnt:mail or username:qk]' type='color' />
-          </strip>
-        </edge>
-      </cards>
-      <simple-id uuid='{4287D5BE-5E42-4BE8-8AFA-7686DD82C91B}' />
-    </window>
-    <window class='worksheet' maximized='true' name='Hoja 12'>
-      <cards>
-        <edge name='left'>
-          <strip size='160'>
-            <card type='pages' />
-            <card type='filters' />
-            <card type='marks' />
-          </strip>
-        </edge>
-        <edge name='top'>
-          <strip size='2147483647'>
-            <card type='columns' />
-          </strip>
-          <strip size='2147483647'>
-            <card type='rows' />
-          </strip>
-          <strip size='30'>
-            <card type='title' />
-          </strip>
-        </edge>
-      </cards>
-      <simple-id uuid='{15AA4645-29EF-4610-AF3B-3F0D256CF80A}' />
-    </window>
-    <window class='dashboard' name='trend'>
+    <window class='dashboard' name='Dashboard 3'>
       <viewpoints>
-        <viewpoint name='apps' />
-        <viewpoint name='dif'>
+        <viewpoint name='Hoja 8'>
           <zoom type='entire-view' />
         </viewpoint>
-        <viewpoint name='in' />
-        <viewpoint name='int' />
       </viewpoints>
       <active id='-1' />
       <simple-id uuid='{6F00F43C-5743-48C3-BF31-00FF1774DE2E}' />
-    </window>
-    <window class='dashboard' name='Historia 1'>
-      <viewpoints />
-      <active id='-1' />
-      <simple-id uuid='{1F2EC23E-B374-4C5F-AF52-0F26F675381B}' />
     </window>
   </windows>
 </workbook>
